@@ -1,0 +1,19 @@
+#offcanvas{
+    background-color: #857A7D ;
+    color: white;
+}
+#offcanvas .btn-close{
+ background-color: white;
+    color: white;
+}
+
+
+@media(0px <= width <= 768px){
+
+    #offcanvas{
+        text-align: center;
+        background-color: #857A7D ;
+        width: 80%;
+    }
+  
+}
