@@ -1,0 +1,81 @@
+#container{
+    background-image: url(/images/Blackground.jpg);
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-attachment: fixed; */
+    background-position: center;
+    width: 100%;
+    text-align: center;
+   
+    background-color: black;
+    color: white;
+    height: 100vh;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.mission{
+    padding-top: 120px;
+    padding-bottom: 40px;
+}
+.mission2{
+    padding-top: 20px;
+    padding-bottom: 50px;
+    font-size: 45px;
+}
+.mission3{
+    padding-top: 0px;
+    padding-bottom: 70px;
+    font-size: 25px;
+}
+
+@media (0px <= width < 450px) {
+    #container{
+        height: 100%;
+    }
+    .mission2{
+        font-size: 30px;
+    }
+    .mission3{
+        font-size: 18px;
+    }
+    .mission{
+        padding-top: 40px;
+    }
+}
+
+/* media */
+@media (450px <= width < 768px) {
+    #container{
+        height: 100%;
+    }
+    .mission2{
+        font-size: 40px;
+    }
+    .mission3{
+        font-size: 18px;
+    }
+    .mission{
+        padding-top: 40px;
+    }
+}
+/* media */
+@media (768px <= width < 992px) {
+    #container{
+        height: 100%;
+    }
+    .mission2{
+        font-size: 40px;
+    }
+    .mission3{
+        font-size: 20px;
+    }
+}
+/* media */
+@media (992px <= width < 1280px) {
+    #container{
+        height: 100%;
+    }
+}
+@media (min-width: 1280px) {
+}

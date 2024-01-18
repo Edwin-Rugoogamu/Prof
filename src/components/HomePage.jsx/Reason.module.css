@@ -1,0 +1,88 @@
+#container {
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #DDD5CA;
+  padding-bottom: 50px;
+  /* transform: translate(-50%, -50%); */
+  transition: transform 0.3s ease-out;
+  height: 100vh;
+}
+
+.why{
+    padding-top: 100px;
+    color: #004AAF;
+}
+
+.reason1{
+    padding-top: 20px;
+}
+.reason2{
+    padding-top: 20px;
+}
+
+.img{
+    width: 100%;
+    padding-bottom: 70px;
+    /* padding-top: 70px; */
+}
+@media (0px <= width < 450px) {
+    #container{
+        height: 100%;
+    }
+    .reason1{
+      font-size: 30px;
+    }
+    .reason2{
+      font-size: 18px;
+    }
+}
+
+/* media */
+@media (450px <= width < 768px) {
+    #container{
+        height: 100%;
+    }
+    .reason1{
+      font-size: 40px;
+    }
+    .reason2{
+      font-size: 22px;
+    }
+  
+}
+/* media */
+@media (768px <= width < 992px) {
+    .img{
+        width: 100%;
+        padding-top: 150px;
+    }
+    .reason1{
+        font-size: 50px;
+      }
+      .reason2{
+        font-size: 23px;
+      }
+}
+/* media */
+@media (992px <= width < 1280px) {
+    .reason1{
+        font-size: 60px;
+      }
+      .reason2{
+        font-size: 25px;
+      }
+      .img{
+        padding-top: 200px;
+      }
+}
+@media (min-width: 1280px) {
+    .reason1{
+        font-size: 60px;
+      }
+      .reason2{
+        font-size: 25px;
+      }
+      .img{
+        padding-top: 100px;
+      }
+}

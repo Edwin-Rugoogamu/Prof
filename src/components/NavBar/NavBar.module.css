@@ -1,11 +1,12 @@
 #Navbar {
-    background-color: #857A7D ;
+  background-color: black ;
     color: white;
     position: fixed;
     width: 100%;
     z-index: 1000;
     top: 0;
     left: 0;
+  
   
     margin-bottom: 5%;
     /* padding-left: 5%; */
@@ -94,17 +95,36 @@
     color: rgb(25, 117, 117);
   }
   
+
+  .logo{
+    width: 60px;
+    color: white;
+  }
+
+  .donateButton{
+    background-color: #004AAF;
+    border: none;
+    border-radius: 5px;
+  padding-left: 40px;
+  padding-right: 40px;
+  color: white;
+  height: 40px;
+  margin-top: -3px;
+  /* font-size: smaller; */
+  }
   /* 0 */
   
   @media (0px <= width < 768px) {
     #Navbar {
-        background-color: #857A7D ;
+      background-color: black ;
       color: white;
       position: fixed;
       width: 100%;
       z-index: 1000;
       padding-left: 0%;
       padding-right: 0%;
+      top: 0;
+      left: 0;
     }
   
     #offcanvas {
@@ -163,8 +183,24 @@
     #Link {
       text-decoration: none;
       color: white;
-      font-size: larger;
+      font-size: smaller;
       margin-right: 1%;
+    }
+    .accountIcon {
+      font-size: 20px;
+      /* width: 200%; */
+      padding-right: 10%;
+    }
+    .donateButton{
+      background-color: #004AAF;
+      border: none;
+      border-radius: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+    height: 40px;
+    margin-top: -7px;
+    
     }
     .cart {
       display: none;
@@ -179,7 +215,7 @@
       text-decoration: none;
       color: white;
       font-size: larger;
-      margin-right: 1%;
+      margin-right: 0%;
       
     }
     .cart {
@@ -194,12 +230,13 @@
       margin-right: 20px;
       margin-left: 10px;
       margin-bottom: 1%;
+      font-weight: 500;
     }
     .cart {
       display: none;
     }
     #Navbar {
-    background-color: #857A7D ;
+    background-color: #000000;
     color: white;
     position: fixed;
     width: 100%;
@@ -213,8 +250,9 @@
   }
   
   #Link:hover {
-    color: #004AAF;
+    color: #DDD5CA;
     transition: 0.5ms;
+    /* color: black; */
   }
   
   #Dropdown-Menu {

@@ -1,0 +1,354 @@
+#container1 {
+  background-image: url( images/bluebackground.webp);
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  width: 100%;
+ 
+}
+#container {
+  background-image: url(images/JT-High-Res-1-2048x2048-removebg-preview.png);
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-attachment: fixed; */
+  background-position: center;
+  width: 100%;
+
+  color: white;
+  font-weight: bold;
+  margin-top: 70px;
+  border-bottom: none;
+}
+
+#header {
+  padding-top: 0px;
+  position: sticky;
+  background: #070707a8;
+  background-image: linear-gradient(to top, #0f131a, transparent),linear-gradient(to bottom, black, transparent);
+  height: 100%;
+  border: 1px solid black; 
+  border-bottom: 0;
+}
+#header2 {
+  padding-top: 0px;
+  position: sticky;
+  background: #0049af1d;
+  background-image: linear-gradient(to top, #0f131aed, transparent);
+  height: 100%;
+}
+#col {
+  padding-top: 150px;
+  padding-left: 5%;
+  font-size: 50px;
+  font-weight: 100;
+  font-family: cursive;
+  padding-bottom: 90px;
+  color: white;
+ 
+
+}
+
+
+.label {
+  color: white;
+}
+.label2 {
+  font-size: 70px;
+  font-style: italic;
+  /* font-family: Arial, Helvetica, sans-serif; */
+  padding-left: 3%;
+  color: #e4d7a6;
+}
+.h {
+  padding-top: 30px;
+  font-family: Now;
+  font-size: 70px;
+}
+.hSecond {
+  padding-top: 40px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 20px;
+}
+.heading{
+  font-size: 25px;
+  /* padding-top: 20px; */
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#row {
+  padding-top: 0px;
+  position: sticky;
+  background-image: linear-gradient(to bottom, #0f131af8, #0f131a17);
+  height: 100%;
+}
+
+#img {
+  height: 500px;
+  background-color: grey;
+  margin-left: 100px;
+  margin-top: 100px;
+  border-top-right-radius: 225px;
+  border-top-left-radius: 225px;
+  margin-bottom: 70px;
+  width: 60%;
+  text-align: center;
+}
+#img2 {
+}
+
+#i {
+  color: white;
+
+  background-color: #000000;
+  padding-bottom: 70px;
+  height: 100vh;
+}
+
+.h3 {
+  padding-top: 30px;
+  padding-right: 5%;
+  font-size: 40px;
+}
+.h6 {
+  padding-top: 40px;
+  padding-right: 5%;
+  font-size: 20px;
+  font-family: Now;
+}
+.button {
+  margin-top: 50px;
+  border-radius: 5px;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  width: 20%;
+  background-color: #004aaf;
+  color: white;
+  border: none;
+  font-weight: 500;
+}
+.weDo {
+  padding-top: 80px;
+  text-decoration: underline;
+  font-size: 20px;
+}
+
+/* media */
+
+@media (0px <= width < 450px) {
+  #header {
+    padding-top: 0px;
+    position: sticky;
+    background: #070707a8;
+    background-image: linear-gradient(to top, #0f131a, transparent),linear-gradient(to bottom, black, transparent);
+    height: 100%;
+    border: 1px solid black; 
+    border-bottom: 0;
+  }
+  
+  #img {
+    height: 350px;
+    background-color: grey;
+    margin-left: 70px;
+    margin-top: 20px;
+    border-top-right-radius: 225px;
+    border-top-left-radius: 225px;
+    margin-bottom: 70px;
+    width: 60%;
+    text-align: center;
+  }
+  #i {
+    color: white;
+  
+    background-color: #000000;
+    padding-bottom: 70px;
+    height: 100%;
+  }
+  #wedo {
+    text-align: center;
+    font-size: 15px;
+  }
+  .button {
+    margin-top: 50px;
+    border-radius: 5px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    width: 50%;
+    background-color: #004aaf;
+    color: white;
+    border: none;
+    font-weight: 500;
+  }
+  .h3 {
+    padding-top: 20px;
+    padding-right: 5%;
+    font-size: 30px;
+  }
+  .h6 {
+    padding-top: 20px;
+    padding-right: 5%;
+    font-size: 20px;
+  }
+  .weDo {
+    padding-top: 40px;
+    text-decoration: underline;
+    font-size: 15px;
+  }
+  .h {
+    padding-top: 30px;
+    font-family: Now;
+    font-size: 40px;
+  }
+  .hSecond {
+    padding-top: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 17px;
+  }
+  .heading{
+    font-size: 15px;
+    /* padding-top: 20px; */
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+}
+
+/* media */
+@media (450px <= width < 768px) {
+  #header {
+    padding-top: 0px;
+    position: sticky;
+    background: #070707a8;
+    background-image: linear-gradient(to top, #0f131a, transparent),linear-gradient(to bottom, black, transparent);
+    height: 100%;
+    border: 1px solid black; 
+    border-bottom: 0;
+  }
+  #img {
+    height: 420px;
+    background-color: grey;
+    margin-left: 20%;
+    margin-top: 20px;
+    border-top-right-radius: 225px;
+    border-top-left-radius: 225px;
+    margin-bottom: 70px;
+    width: 60%;
+    text-align: center;
+  }
+  #wedo {
+    text-align: center;
+  }
+  
+  .button {
+    margin-top: 50px;
+    border-radius: 5px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    width: 50%;
+    background-color: #004aaf;
+    color: white;
+    border: none;
+    font-weight: 500;
+  }
+  .h3 {
+    padding-top: 30px;
+    padding-right: 5%;
+    font-size: 30px;
+  }
+  .h6 {
+    padding-top: 20px;
+    padding-right: 5%;
+    font-size: 20px;
+  }
+  .weDo {
+    padding-top: 40px;
+    text-decoration: underline;
+  }
+  .h {
+    padding-top: 30px;
+    font-family: Now;
+    font-size: 40px;
+  }
+  .hSecond {
+    padding-top: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 17px;
+  }
+  .heading{
+    font-size: 15px;
+    /* padding-top: 20px; */
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  #i{
+    height: 100%;
+  }
+  
+}
+/* media */
+@media (768px <= width < 992px) {
+  #header {
+    padding-top: 0px;
+    position: sticky;
+    background: #070707a8;
+    background-image: linear-gradient(to top, #0f131a, transparent),linear-gradient(to bottom, black, transparent);
+    height: 100vh;
+    border: 1px solid black; 
+    border-bottom: 0;
+  }
+  .weDo {
+    padding-top: 80px;
+    text-decoration: underline;
+    font-size: 15px;
+  }
+
+  .h3 {
+    padding-top: 30px;
+    padding-right: 5%;
+    font-size: 30px;
+  }
+  .h6 {
+    padding-top: 20px;
+    padding-right: 5%;
+    font-size: 18px;
+  }
+ 
+  .h {
+    padding-top: 30px;
+    font-family: Now;
+    font-size: 50px;
+  }
+  .hSecond {
+    padding-top: 40px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 17px;
+  }
+  .heading{
+    font-size: 20px;
+    /* padding-top: 20px; */
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  #i{
+    height: 100%;
+  }
+}
+/* media */
+@media (992px <= width < 1280px) {
+  .weDo {
+    padding-top: 130px;
+    text-decoration: underline;
+  }
+
+  .h3 {
+    padding-top: 30px;
+    padding-right: 5%;
+  }
+  .h6 {
+    padding-top: 20px;
+    padding-right: 5%;
+  }
+}
+@media (min-width: 1280px) {
+ 
+  
+}

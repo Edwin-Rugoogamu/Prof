@@ -15,6 +15,7 @@ import { FaRegNewspaper } from "react-icons/fa";
 import { FcAbout } from "react-icons/fc";
 import { IoMdHelp } from "react-icons/io";
 import { Dropdown } from 'react-bootstrap';
+import { IoSchoolSharp } from "react-icons/io5";
 
 
 function NavBar(props) {
@@ -62,7 +63,7 @@ function NavBar(props) {
               {" "}
               <Link to="#" id={style.Link} onClick={() => scrollToSection('section1')}>
                 {" "}
-                <label className={style.e}>L</label>OGO .
+                <img src="images/2.png" alt="" className={style.logo}/>
               </Link>
             </Navbar.Brand>
             
@@ -96,17 +97,22 @@ function NavBar(props) {
                 
                   {/* yaa */}
                   <Link to="" id={style.Link} onClick={closeOffcanvas}>
-                    <Nav id={style.Link2} onClick={() => scrollToSection('section3')}>  < FcAbout  className={style.accountIcon}/>About</Nav>
+                    <Nav id={style.Link2} onClick={() => scrollToSection('section3')}>  < FcAbout  className={style.accountIcon}/>ABOUT US</Nav>
                   </Link>
                   <Link to="" id={style.Link} onClick={closeOffcanvas}>
-                    <Nav id={style.Link2} onClick={() => scrollToSection('section3')}>  <FaRegNewspaper  className={style.accountIcon}/>News</Nav>
+                    <Nav id={style.Link2} onClick={() => scrollToSection('section3')}>  <FaRegNewspaper  className={style.accountIcon}/>NEWS</Nav>
                   </Link>
                   <Link to="" id={style.Link} onClick={closeOffcanvas}>
-                    <Nav id={style.Link2} onClick={() => scrollToSection('section3')}>  <FaDonate  className={style.accountIcon}/>Donations</Nav>
+                    <Nav id={style.Link2} onClick={() => scrollToSection('section3')}>  <IoSchoolSharp   className={style.accountIcon}/>LECTURES</Nav>
+                  </Link>
+                
+                  <Link to="" id={style.Link} onClick={closeOffcanvas}>
+                    <Nav id={style.Link2} onClick={() => scrollToSection('section3')}>  <FaRegCalendarAlt   className={style.accountIcon}/>CALENDER</Nav>
                   </Link>
                   <Link to="" id={style.Link} onClick={closeOffcanvas}>
-                    <Nav id={style.Link2} onClick={() => scrollToSection('section3')}>  <FaRegCalendarAlt   className={style.accountIcon}/>Calender</Nav>
+                    <Nav id={style.Link2} onClick={() => scrollToSection('section3')}> <button className={style.donateButton}><FaDonate  className={style.accountIcon}/>DONATE</button> </Nav>
                   </Link>
+                
                 
   
                 </Nav>
