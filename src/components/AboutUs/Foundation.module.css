@@ -1,0 +1,51 @@
+.main{
+    background-color: #004AAF;
+    background-image: linear-gradient(to top, #0f131a, transparent),linear-gradient(to bottom, black, transparent);
+    height: 100vh;
+    border: 1px solid black; 
+    padding-top: 0px;
+   
+  position: sticky;
+}
+
+#container{
+    padding-left: 5%;
+    padding-right: 5%;
+    color: aliceblue;
+    padding-top: 60px;
+    text-align: center;
+}
+.h{
+padding-bottom: 20px;
+}
+.p1{
+   font-size: 35px;
+   padding-bottom: 20px;
+}
+.p2{
+font-size: 20px;
+padding-bottom: 20px;
+}
+.button {
+    margin-top: 10px;
+    border-radius: 5px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    width: 20%;
+    background-color: #004aaf;
+    color: white;
+    border: none;
+    font-weight: 500;
+  }
+
+
+@media (0px <= width < 450px) {
+}
+@media (450px <= width < 768px) {
+}
+@media (768px <= width < 992px) {
+}
+@media (992px <= width < 1280px) {
+}
+@media (min-width: 1280px) {
+}

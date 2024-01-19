@@ -61,7 +61,7 @@ function NavBar(props) {
           <Container fluid>
             <Navbar.Brand>
               {" "}
-              <Link to="#" id={style.Link} onClick={() => scrollToSection('section1')}>
+              <Link to="/" id={style.Link} onClick={() => scrollToSection('section1')}>
                 {" "}
                 <img src="images/2.png" alt="" className={style.logo}/>
               </Link>
@@ -96,7 +96,7 @@ function NavBar(props) {
                   
                 
                   {/* yaa */}
-                  <Link to="" id={style.Link} onClick={closeOffcanvas}>
+                  <Link to="/about" id={style.Link} onClick={closeOffcanvas}>
                     <Nav id={style.Link2} onClick={() => scrollToSection('section3')}>  < FcAbout  className={style.accountIcon}/>ABOUT US</Nav>
                   </Link>
                   <Link to="" id={style.Link} onClick={closeOffcanvas}>

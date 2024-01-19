@@ -1,0 +1,88 @@
+#container {
+  padding-top: 100px;
+  background-color: black;
+  padding-left: 5%;
+  padding-right: 5%;
+  color: white;
+ height: 100vh;
+ padding-bottom: 20px;
+}
+#col{
+   padding-top: 70px;
+}
+.h{
+    padding-bottom: 30px;
+   
+}
+.p1{
+    padding-bottom: 30px;
+    font-size: 35px;
+}
+.p2{
+    font-size: 20px;
+}
+
+@media (0px <= width < 450px) {
+    #container {
+      
+       height: 100%;
+      }
+      #col{
+        padding-top: 40px;
+     }
+     .h{
+         padding-bottom: 25px;
+        
+     }
+     .p1{
+         padding-bottom: 30px;
+         font-size: 30px;
+     }
+     .p2{
+         font-size: 15px;
+     }
+}
+@media (450px <= width < 768px) {
+    #container {
+      
+        height: 100%;
+       }
+       #col{
+        padding-top: 40px;
+     }
+     .h{
+         padding-bottom: 25px;
+        
+     }
+     .p1{
+         padding-bottom: 30px;
+         font-size: 34px;
+     }
+     .p2{
+         font-size: 17px;
+     }
+}
+@media (768px <= width < 992px) {
+    #container {
+      
+        height: 100%;
+       }
+       #col{
+        padding-top: 40px;
+     }
+     .h{
+         padding-bottom: 25px;
+        
+     }
+     .p1{
+         padding-bottom: 30px;
+         font-size: 34px;
+     }
+     .p2{
+         font-size: 17px;
+     }
+}
+@media (992px <= width < 1280px) {
+}
+@media (min-width: 1280px) {
+}
