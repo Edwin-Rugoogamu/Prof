@@ -39,7 +39,7 @@ function Info(props) {
               
             >
               <h5 className={style.heading}>Remembering PROF. JOHN NTAMBIRWEKI </h5>
-              <h6> (1955-2023)</h6>
+              <h6 className={style.heading}> (1955-2023)</h6>
               <motion.h1 className={style.h}ref={ref}
             initial="hidden"
             animate={controls}

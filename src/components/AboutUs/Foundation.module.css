@@ -1,7 +1,7 @@
 .main{
     background-color: #004AAF;
     background-image: linear-gradient(to top, #0f131a, transparent),linear-gradient(to bottom, black, transparent);
-    height: 100vh;
+    height: 100%;
     border: 1px solid black; 
     padding-top: 0px;
    
@@ -36,6 +36,7 @@ padding-bottom: 20px;
     color: white;
     border: none;
     font-weight: 500;
+    margin-bottom: 50px;
   }
 
 
