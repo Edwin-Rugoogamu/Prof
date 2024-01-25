@@ -1,0 +1,36 @@
+.main{
+ 
+}
+#container{
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 20px;
+}
+.h4 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  #col{
+     margin-bottom: 20px;
+  }
+
+  #card{
+    width: 20px;
+    border: none;
+    box-shadow:  0 0 10px #c9d0d1, 0 0 10px #c9d0d1,
+    0 0 10px #c9d0d1, 0 0 5px #c9d0d1; 
+  }
+  @media (0px <= width < 450px) {
+ 
+  }
+  @media (450px <= width < 768px) {
+   
+  }
+  @media (768px <= width < 992px) {
+   
+  }
+  @media (992px <= width < 1280px) {
+  }
+  @media (min-width: 1280px) {
+  }
+ 

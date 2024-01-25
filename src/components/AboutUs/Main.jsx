@@ -9,13 +9,13 @@ function main(props) {
       <div className="container-fluid" id={style.container}>
         <div className="row">
           <div className="col">
-          <Link to="/about" className={style.h6}><h6 >Lorem, ipsum dolor. </h6></Link>
+          <Link to="/about" className={style.h6}><h6 >Mission </h6></Link>
           </div>
           <div className="col">
-          <Link to="about2" className={style.h6}><h6 >Lorem, ipsum dolor. </h6></Link>
+          <Link to="about2" className={style.h6}><h6 >Objective </h6></Link>
           </div>
           <div className="col">
-          <Link to="about3" className={style.h6}><h6 >Lorem, ipsum dolor. </h6></Link>
+          <Link to="about3" className={style.h6}><h6 >Ouotes </h6></Link>
           </div>
         
           

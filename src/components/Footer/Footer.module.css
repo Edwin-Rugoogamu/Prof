@@ -1,7 +1,51 @@
-#container{
+.main{
      background-color: #000000;
+     color: white;
+}
+
+#container{
+    
      color: white;
      padding-left: 5%;
      padding-right: 5%;
      border-top: 1px solid white;
+   
+     padding-top: 30px;
 }
+.icon2{
+     font-size: 25px;
+}
+.label{
+     margin-right:20%;
+}
+.h4{
+     padding-bottom: 20px;
+}
+.donateButton{
+     background-color: #004AAF;
+     border: none;
+     border-radius: 5px;
+   padding-left: 40px;
+   padding-right: 40px;
+   color: white;
+   height: 40px;
+   margin-top: -3px;
+   /* width: 10px; */
+   /* font-size: smaller; */
+  text-align: center;
+  margin-top: 50px;
+   }
+   .accountIcon {
+     font-size: 30px;
+     /* width: 200%; */
+     padding-right: 4px;
+   }
+
+   #container2{
+     padding-bottom: 40px;
+     text-align: center;
+   }
+   #container3{
+     border-top: 2px solid white;
+     border-bottom: 2px solid white;
+   }

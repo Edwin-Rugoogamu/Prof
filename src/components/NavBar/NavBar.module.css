@@ -79,6 +79,11 @@
     /* width: 200%; */
     padding-right: 10%;
   }
+  .accountIcon2 {
+    font-size: 30px;
+    /* width: 200%; */
+    padding-right: 6%;
+  }
   
   #account {
     background: none;
@@ -112,9 +117,42 @@
   margin-top: -3px;
   /* font-size: smaller; */
   }
+
+  #dropdownToggle{
+    border: none;
+    background: none;
+    
+    font-size: 20px;
+   padding-top: 8%;
+    font-weight: 500;
+  }
+
+  #link{
+    padding-left: 12px;
+    text-decoration: none;
+    color: black;
+
+  }
+  #link:hover{
+    color: #004AAF;
+    margin-left: 4px;
+    transition: ease-in;
+    transition-duration: 0.2s;
+    cursor: pointer;
+  }
+
+/* #dropdownToggle:hover #Dropdown_menu{
+  visibility: visible;
+  display: block;
+} */
+.active {
+  display: block;
+}
+
+
   /* 0 */
   
-  @media (0px <= width < 768px) {
+  @media (0px <= width < 450px) {
     #Navbar {
       background-color: black ;
       color: white;
@@ -174,6 +212,83 @@
       text-decoration: none;
       font-size: large;
     }
+    #dropdownToggle{
+      border: none;
+      background: none;
+      
+      font-size: 20px;
+     padding-bottom: 20%;
+      font-weight: 200;
+    }
+  }
+  @media (450px <= width < 768px) {
+    #Navbar {
+      background-color: black ;
+      color: white;
+      position: fixed;
+      width: 100%;
+      z-index: 1000;
+      padding-left: 0%;
+      padding-right: 0%;
+      top: 0;
+      left: 0;
+    }
+  
+    #offcanvas {
+      text-align: center;
+      width: 70%;
+    }
+    #Link2 {
+      padding-top: 40px;
+      padding-bottom: 40px;
+      /* width: 100%; */
+    }
+    #Link2:hover {
+      background-color: rgba(83, 74, 74, 0.349);
+      transition: 0.5s;
+      /* cursor: pointer; */
+      padding-left: 10px;
+    }
+    #Link {
+      text-decoration: none;
+      color: white;
+      margin-bottom: 6%;
+  
+      font-size: larger;
+    }
+    #search {
+      display: none;
+    }
+  
+    .cart {
+      margin-left: auto;
+      margin-right: 4%;
+    }
+    .accountIcon {
+      display: none;
+    }
+  
+    #AccountLink {
+      margin-bottom: 15%;
+      margin-top: 5%;
+    }
+    #Dropdown_menu {
+      text-decoration: none;
+      text-align: center;
+    }
+    #Dropdown_Item {
+      margin-top: 2%;
+      text-decoration: none;
+      font-size: large;
+    }
+    #dropdownToggle{
+      border: none;
+      background: none;
+      
+      font-size: 20px;
+     padding-bottom: 15%;
+      font-weight: 200;
+    }
   }
   @media (768px <= width < 992px) {
     #search {
@@ -205,6 +320,14 @@
     .cart {
       display: none;
     }
+    #dropdownToggle{
+      border: none;
+      background: none;
+      
+      font-size: 13px;
+     padding-top: 4%;
+      font-weight: 400;
+    }
   }
   @media (992px <= width < 1280px) {
     #search {
@@ -220,6 +343,19 @@
     }
     .cart {
       display: none;
+    }
+    #dropdownToggle{
+      border: none;
+      background: none;
+      
+      font-size: 20px;
+     padding-top: 6%;
+      font-weight: 500;
+    }
+    .accountIcon2 {
+      font-size: 30px;
+      /* width: 200%; */
+      padding-right: 6%;
     }
   }
   @media (min-width: 1280px) {
@@ -306,6 +442,11 @@
     /* width: 200%; */
     padding-right: 5%;
   }
+  .accountIcon2 {
+    font-size: 30px;
+    /* width: 200%; */
+    padding-right: 5%;
+  }
   
   #account {
     background: none;
@@ -320,6 +461,15 @@
   
   .logout {
     color: rgb(25, 117, 117);
+  }
+  
+  #dropdownToggle{
+    border: none;
+    background: none;
+    
+    font-size: 20px;
+   padding-top: 8%;
+    font-weight: 500;
   }
   }
   

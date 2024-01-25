@@ -5,6 +5,7 @@ import NavBar from "../NavBar/NavBar"
 import Foundation from './Foundation';
 import About1 from './About1';
 import Main from "./Main"
+import Footer from '../Footer/Footer';
 
 function AboutUs(props) {
     return (
@@ -13,6 +14,7 @@ function AboutUs(props) {
             <div><OurStory/></div>
             <div><Foundation/></div>
             <div><Main/></div>
+            <div><Footer/></div>
         </div>
     );
 }
