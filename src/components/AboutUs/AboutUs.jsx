@@ -12,7 +12,7 @@ function AboutUs(props) {
         <div className={style.main}>
             <div><NavBar/></div>
             <div><OurStory/></div>
-            <div><Foundation/></div>
+            {/* <div><Foundation/></div> */}
             <div><Main/></div>
             <div><Footer/></div>
         </div>

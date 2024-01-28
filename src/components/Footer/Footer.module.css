@@ -1,5 +1,5 @@
 .main{
-     background-color: #000000;
+     background-color: #004AAF;
      color: white;
 }
 
@@ -22,12 +22,12 @@
      padding-bottom: 20px;
 }
 .donateButton{
-     background-color: #004AAF;
+     background-color: #DDD5CA;
      border: none;
      border-radius: 5px;
    padding-left: 40px;
    padding-right: 40px;
-   color: white;
+   color: #004AAF;
    height: 40px;
    margin-top: -3px;
    /* width: 10px; */
@@ -48,4 +48,28 @@
    #container3{
      border-top: 2px solid white;
      border-bottom: 2px solid white;
+   }
+
+
+   @media (0px <= width < 450px) {
+     .donateButton{
+         margin-bottom: 30px;
+        }
+        /* .label{
+          padding-left: 20px;
+        } */
+   }
+   @media (450px <= width < 768px) {
+     .donateButton{
+          margin-bottom: 30px;
+         }
+   }
+   @media (768px <= width < 992px) {
+     .donateButton{
+          margin-bottom: 30px;
+         }
+   }
+   @media (992px <= width < 1280px) {
+   }
+   @media (min-width: 1280px) {
    }

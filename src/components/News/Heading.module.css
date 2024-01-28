@@ -8,11 +8,13 @@
 #col{
     background-color: grey;
     height: 400px;
+    padding-bottom: 20px;
 }
 #col1{
     background-color: grey;
     height: 195px;
     margin-bottom: 10px;
+    
    
 }
 .img{
@@ -40,9 +42,17 @@
 }
 
 @media (0px <= width < 450px) {
+    #col{
+       
+        margin-bottom: 20px;
+    }
  
 }
 @media (450px <= width < 768px) {
+    #col{
+      
+        margin-bottom: 20px;
+    }
  
 }
 @media (768px <= width < 992px) {

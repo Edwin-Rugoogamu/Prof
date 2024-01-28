@@ -8,7 +8,7 @@ import Footer from '../Footer/Footer';
 
 function News(props) {
     return (
-        <div>
+        <div className={style.main}>
             <div><NavBar/></div>
             <div><Heading/></div>
             <div><Body/></div>

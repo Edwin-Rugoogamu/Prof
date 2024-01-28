@@ -11,9 +11,13 @@
     padding-bottom: 30px;
   }
   #card {
+  
+    color: #004AAF;
+    background-color: #DDD5CA;
     border: none;
-    box-shadow:  0 0 10px #c9d0d1, 0 0 10px #c9d0d1,
-    0 0 10px #c9d0d1, 0 0 5px #c9d0d1; 
+     border: 1px solid #004AAF ;
+    /* height: 500px; */
+    border-radius: 10px;
 }
   #col{
      margin-bottom: 20px;

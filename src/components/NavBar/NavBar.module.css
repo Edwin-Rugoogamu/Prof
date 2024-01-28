@@ -1,5 +1,5 @@
 #Navbar {
-  background-color: black ;
+  background-color: #004AAF ;
     color: white;
     position: fixed;
     width: 100%;
@@ -107,12 +107,12 @@
   }
 
   .donateButton{
-    background-color: #004AAF;
+    background-color: #DDD5CA;
     border: none;
     border-radius: 5px;
   padding-left: 40px;
   padding-right: 40px;
-  color: white;
+  color: #004AAF;
   height: 40px;
   margin-top: -3px;
   /* font-size: smaller; */
@@ -154,7 +154,7 @@
   
   @media (0px <= width < 450px) {
     #Navbar {
-      background-color: black ;
+     
       color: white;
       position: fixed;
       width: 100%;
@@ -223,7 +223,7 @@
   }
   @media (450px <= width < 768px) {
     #Navbar {
-      background-color: black ;
+  
       color: white;
       position: fixed;
       width: 100%;
@@ -307,7 +307,7 @@
       padding-right: 10%;
     }
     .donateButton{
-      background-color: #004AAF;
+      background-color: #DDD5CA;
       border: none;
       border-radius: 5px;
     padding-left: 20px;
@@ -372,7 +372,7 @@
       display: none;
     }
     #Navbar {
-    background-color: #000000;
+  
     color: white;
     position: fixed;
     width: 100%;

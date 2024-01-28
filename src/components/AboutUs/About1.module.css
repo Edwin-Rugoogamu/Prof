@@ -1,21 +1,24 @@
 .main{
   
-    padding-top: 50px;
-    height: 100vh;
-    background-color: #000;
+    padding-top: 30px;
+    height: 100%;
+    background-color: #DDD5CA;
+    color: black;
 }
 #container{
     padding-left: 5%;
     padding-right: 5%;
-    background-color: #000;
+    background-color: #DDD5CA;
 }
 
 .h4{
    padding-bottom: 20px; 
 }
 .p1{
-    font-size: 35px;
+    font-size: 70px;
     padding-bottom: 20px;
+    padding-top: 30px;
+    font-weight: 600;
  }
  .p2{
  font-size: 20px;

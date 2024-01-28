@@ -4,6 +4,7 @@ import Carousel from "react-bootstrap/Carousel";
 import { useRef } from "react";
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
+import { Link } from "react-router-dom";
 
 
 function Gallery(props) {
@@ -56,11 +57,12 @@ function Gallery(props) {
         variants={variants}
         transition={{ duration: 0.5 }}
       >
-        Gallery
+      <button className={style.button}> <Link id={style.link} to="/gallery">Gallery</Link></button>
       </motion.h4>
       <Carousel
         data-bs-theme="dark"
-      
+        controls={false}
+        indicators={false}
       >
         <Carousel.Item>
           <div className="container-fluid" id={style.container}>

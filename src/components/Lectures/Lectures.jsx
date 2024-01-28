@@ -8,11 +8,11 @@ import Footer from '../Footer/Footer';
 
 function Lectures(props) {
     return (
-        <div>
+        <div className={style.main}>
             <div><NavBar/></div>
             <div><Heading/></div>
             <div><LatestLectures/></div>
-            <div><PastLectures/></div>
+            {/* <div><PastLectures/></div> */}
             <div><Footer/></div>
         </div>
     );

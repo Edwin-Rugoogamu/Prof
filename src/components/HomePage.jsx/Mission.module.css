@@ -9,19 +9,22 @@
     text-align: center;
    
     background-color: #004AAF;
+    /* background-image: linear-gradient(to top, #ddd5ca94, transparent),linear-gradient(to bottom, #ddd5ca63, transparent); */
     color: white;
-    height: 100vh;
+    height: 100%;
     padding-left: 5%;
     padding-right: 5%;
 }
 .mission{
-    padding-top: 120px;
-    padding-bottom: 40px;
+    padding-top: 60px;
+    padding-bottom: 20px;
 }
 .mission2{
     padding-top: 20px;
     padding-bottom: 50px;
-    font-size: 45px;
+    font-size: 60px;
+      /* color: transparent;
+  -webkit-text-stroke: 2px white;  */
 }
 .mission3{
     padding-top: 0px;

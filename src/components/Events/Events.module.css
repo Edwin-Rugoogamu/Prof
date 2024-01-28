@@ -2,7 +2,11 @@
     text-align: center;
     padding-top: 100px;
     padding-bottom: 20px;
-    background-color: bisque;
+    background-color: #DDD5CA;
+    color: #004AAF;
+}
+.main2{
+    background-color: #DDD5CA;
 }
 
 

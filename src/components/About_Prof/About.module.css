@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Poltawski+Nowy:ital@1&display=swap");
+
+.main {
+  background-color: #ddd5ca;
+}
+
+#container {
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+#col {
+    text-align: center;
+    /* padding-top: 20px; */
+  text-align: start;
+  font-size: 20px;
+  /* box-shadow:  0 0 2px #c9cbd1, 0 0 2px #004AAF,
+  0 0 10px #151050bb, 0 0 5px #030404;  */
+  background-color: #DDD5CA;
+  color: black;
+  margin-top: 30px;
+  border-radius: 20px;
+  border: 1px solid #004AAF;
+  margin-bottom: 100px;
+ 
+}
+#img{
+    width: 100%;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+#col2{
+    background-image: url("/images/baby.webp");
+    background-repeat: no-repeat;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+    /* background-attachment: fixed; */
+     background-size: cover;
+     background-position: center;
+}
+#col3{
+    padding-top: 30px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+#col4{
+    background-image: url("/images/photo-1607237138185-eedd9c632b0b.avif");
+    background-repeat: no-repeat;
+    border-radius: 20px;
+
+    /* background-attachment: fixed; */
+     background-size: cover;
+     background-position: center;
+}
+#col5{
+    background-image: url("/images/plane.webp");
+    background-repeat: no-repeat;
+    border-radius: 20px;
+
+
+    /* background-attachment: fixed; */
+     background-size: cover;
+     background-position: center;
+}
+#h1{
+  color: #004AAF;
+}

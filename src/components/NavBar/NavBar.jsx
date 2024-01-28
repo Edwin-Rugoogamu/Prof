@@ -93,28 +93,26 @@ function NavBar(props) {
               <Offcanvas.Body>
                 <Nav className="justify-content-end flex-grow-1 pe-3">
                   {/* yaa */}
-                  <Dropdown >
-                    <Dropdown.Toggle id={style.dropdownToggle}>
-                      <FcAbout className={style.accountIcon2} />
-                      ABOUT US
-                    </Dropdown.Toggle>
+                 
 
-                    <Dropdown.Menu id={style.Dropdown_menu}>
-                      <h6><Link to="/about" id={style.link}>About Foundation</Link></h6>
-                      <h6><Link to="/about/professor" id={style.link}>About Pro.John</Link></h6>
-                      <h6><Link id={style.link}>Gallery</Link></h6>
-                     
-                    </Dropdown.Menu>
-                  </Dropdown>
-
-                  <Link to="/news" id={style.Link} onClick={closeOffcanvas}>
+                  <Link to="/about" id={style.Link} onClick={closeOffcanvas}>
                     <Nav
                       id={style.Link2}
                       onClick={() => scrollToSection("section3")}
                     >
                       {" "}
                       <FaRegNewspaper className={style.accountIcon} />
-                      NEWS
+                     ABOUT US
+                    </Nav>
+                  </Link>
+                  <Link to="/professor" id={style.Link} onClick={closeOffcanvas}>
+                    <Nav
+                      id={style.Link2}
+                      onClick={() => scrollToSection("section3")}
+                    >
+                      {" "}
+                      <FaRegNewspaper className={style.accountIcon} />
+                     PRO.JOHN
                     </Nav>
                   </Link>
                   <Link to="/lectures" id={style.Link} onClick={closeOffcanvas}>

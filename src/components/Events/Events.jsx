@@ -9,12 +9,12 @@ import Footer from '../Footer/Footer';
 function Events(props) {
     return (
         
-        <div>
+        <div className={style.main2}>
          <div><NavBar/></div>
           <div className={style.main}> <h1>EVENTS</h1></div>
           <div><FeaturedEvents/></div> 
           <div><FutureEvents/></div>
-          <div><PastEvents/></div>
+          {/* <div><PastEvents/></div> */}
           <div><Footer/></div>
         </div>
     );

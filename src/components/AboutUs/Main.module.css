@@ -5,14 +5,31 @@
     /* padding-top: 20px; */
     text-align: center;
     padding-bottom: 15px;
+    padding-left: 5%;
+    padding-right: 5%;
+    
 }
 #container{
-    background-color: #000000;
+    background-color: #DDD5CA;
     padding-top: 30px;
     padding-bottom: 20px;
+    border: 1px solid #004AAF;
+  
 }
 .h6{
     text-decoration: none;
-    color: white;
-    
+    color: #004AAF;
+    font-size: 60px;
+    transition: transform 0.3s ease-in-out;
+}
+.h6:hover{
+    color: black;
+    text-decoration: underline;
+    transform: scale(1.1);
+}
+.h3{
+    transition: transform 0.3s ease-in-out;
+}
+.h3:hover{
+    transform: scale(1.1);
 }

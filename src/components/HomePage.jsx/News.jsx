@@ -62,6 +62,7 @@ function News(props) {
             <h4>Title</h4>
           </div>
         </div>
+        {/* <button className={style.button}>EXPLORE</button> */}
       </div>
     </div>
   );

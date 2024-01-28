@@ -9,7 +9,8 @@ import Events from "./components/Events/Events";
 import News from "./components/News/News";
 import Donate from "./components/Donate/Donate";
 import Lectures from "./components/Lectures/Lectures";
-import About_Prof from "./components/About_Prof/About_Prof";
+import AboutProf from "./components/About_Prof/AboutProf";
+import Gallery from "./components/Gallery/Gallery";
 
 function App() {
   return (
@@ -26,7 +27,8 @@ function App() {
           <Route path="/news" element={<News/>}></Route>
           <Route path="/donate"  element={<Donate/>}></Route>
           <Route path="/lectures"  element={<Lectures/>}></Route>
-          <Route path="/about/professor"  element={<About_Prof/>}></Route>
+          <Route path="/professor"  element={<AboutProf/>}></Route>
+          <Route path="/gallery"  element={<Gallery/>}></Route>
         </Routes>
       </Router>
     </>

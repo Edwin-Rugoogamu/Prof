@@ -36,15 +36,19 @@ function Mission(props) {
               variants={variants}
               transition={{ duration: 0.5 }}
             >
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi
-              deleniti voluptas repudiandae quo in dolores vel sed cumque! Optio
-              repellendus voluptatem sapiente dolores praesentium velit
-              blanditiis reprehenderit laudantium sint officia.
+              We dream of a society where every East African has access to
+              higher education and where threats to biodiversity in the African
+              ecosystem are managed adequately.
             </motion.h1>
             <h6 className={style.mission3}>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia
-              sint nemo tempora magnam veritatis nesciunt sequi perspiciatis
-              consequuntur rerum labore!
+              {/* To facilitate continuing education for sections of the community
+              in Uganda and worldwide.<br></br>
+              To promote capacity building in students and the total development
+              of liberal and scientific educational programmes.<br></br>
+              To participate in the presentation, transmission and propagation
+              of intellectual activity and development in Uganda. <br></br>To
+              facilitate research in natural resources and the environment
+              generally for sustainable development. */}
             </h6>
           </div>
           <div className="col"></div>

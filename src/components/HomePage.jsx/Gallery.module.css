@@ -1,10 +1,10 @@
 .main{
-    background-color: #000000;
+    background-color: #DDD5CA;
     color: white;
     text-align: center;
    padding-left: 5%;
    padding-right: 5%;
-   padding-top: 50px;
+ 
    padding-bottom: 70px;
    height: 100%;
 
@@ -37,12 +37,31 @@
   .gallery{
     padding-bottom: 70px;
     padding-top: 50px;
+    font-size: 50px;
+    color: #000000;
+  }
+  .button{
+    padding-top: 8px;
+    padding-bottom: 10px;
+    font-size: 30px;
+    font-weight: 700;
+    background-color: #004AAF;
+    color: #DDD5CA;
+    border-radius: 10px;
+    padding-left: 2%;
+    padding-right: 2%;
   }
   #row{
     text-align: center;
   }
+  .g{
+    color: #004AAF;
+  }
 
-
+#link{
+  text-decoration: none;
+  color:#DDD5CA
+}
 
   
   /* media */

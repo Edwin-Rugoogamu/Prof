@@ -7,6 +7,7 @@ import { useInView } from "react-intersection-observer";
 import Mission from "./Mission";
 import News from "./News";
 import Gallery from "./Gallery";
+import { Link } from "react-router-dom";
 
 function Info(props) {
 
@@ -67,28 +68,21 @@ function Info(props) {
           <div className="row" id={style.row}>
             <div className="col" id={style.img2}>
               <div id={style.img}>
-                <img src="" alt="" />
+                <img src="public/images/photo-1607237138185-eedd9c632b0b.avif" alt="" className={style.img} />
               </div>
             </div>
             <div
               className="col-xl-7 col-lg-7 col-md-7"
                 id={style.wedo}
             >
-              <h6 className={style.weDo}>What we do</h6>
+              <h6 className={style.weDo}>Who We Are </h6>
               <h3 className={style.h3}>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum
-                commodi qui saepe excepturi eligendi natus rerum voluptatum
-                sequi nulla illum.
+              The John Ntambirweki Foundation is a nonprofit organization dedicated to the indelible legacy of Prof. John Ntambirweki in the education sector in East Africa and his contribution to international law and international environmental law. 
               </h3>
               <h6 className={style.h6}>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum
-                in veritatis sapiente vitae iure debitis molestias? A iusto
-                cumque mollitia laborum accusamus, praesentium voluptatum illum,
-                eligendi facilis dolor odit amet quidem rerum illo quasi tempore
-                veritatis molestiae deserunt eius nobis fugiat ratione. Quae non
-                fugiat commodi atque quas expedita libero!
+              The Foundation is incorporated and registered under Ugandan law as John Ntambirweki Trust Limited, a company limited by guarantee. 
               </h6>
-              <button className={style.button}>EXPLORE</button>
+              <button className={style.button} > <Link to="/about" className={style.explore}>EXPLORE</Link></button>
             </div>
           </div>
         </div>

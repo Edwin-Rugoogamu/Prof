@@ -1,20 +1,39 @@
-import React from 'react';
-import style from "./About2.module.css"
+import React from "react";
+import style from "./About2.module.css";
 
 function About2(props) {
-    return (
-        <div className={style.main}>
-        <div className="container-fluid" id={style.container} >
-          <div className="row">
-            <div className="col">
-              <h4 className={style.h4} >Lorem ipsum black is the best.</h4>
-              <p  className={style.p1}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi recusandae veritatis placeat quam corporis! Recusandae eaque aperiam inventore eos magnam. Fuga voluptatum, commodi unde quis, nobis iste consequatur, vitae nisi sunt inventore itaque reiciendis! Enim culpa dolorem at labore eius!</p>
-              <p  className={style.p2}>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis molestiae necessitatibus, alias consequatur aut repudiandae sint incidunt suscipit nostrum adipisci! Illum itaque accusamus, ullam laudantium aperiam voluptatum, nam facere vero necessitatibus voluptate exercitationem. Debitis impedit amet illo. Nostrum repudiandae dicta dolores. Atque dicta ut quia sint ducimus amet quibusdam? Ipsa dolorum fugit laboriosam, doloremque rerum commodi aliquid culpa! Hic, natus!</p>
-            </div>
+  return (
+    <div className={style.main}>
+      <div className="container-fluid" id={style.container}>
+        <div className="row">
+          <div className="col">
+            <h4 className={style.h4}>
+              We dream of a society where every East African has access to
+              higher education and where threats to biodiversity in the African
+              ecosystem are managed adequately.
+            </h4>
+            <p className={style.p1}>
+              • To facilitate continuing education for sections of the community
+              in Uganda and worldwide. • To promote capacity building in
+              students and the total development of liberal and scientific
+              educational programmes. • To participate in the presentation,
+              transmission and propagation of intellectual activity and
+              development in Uganda. • To facilitate research in natural
+              resources and the environment generally for sustainable
+              development. • To undertake, initiate, support or otherwise effect
+              consultancy work, management services and market research in any
+              field or specialty of knowledge or professional practice or
+              enterprise and to sponsor, subsidise, endorse or recommend
+              research or special project assignments or undertakings. • To
+              campaign for and or accept endowments, donations or assistance in
+              kind, including bequests and legacies for facilitating the
+              Foundation to successfully develop or carry out its activities.
+            </p>
           </div>
         </div>
       </div>
-    );
+    </div>
+  );
 }
 
 export default About2;
