@@ -12,7 +12,7 @@ function OurStory(props) {
             <p className={style.p2}>The Foundation is incorporated and registered under Ugandan law as John Ntambirweki Trust Limited, a company limited by guarantee. </p>
           </div>
           <div className="col">
-            <img src="public/images/photo-1607237138185-eedd9c632b0b.avif" alt=""  id={style.img} />
+            <img src="/images/photo-1607237138185-eedd9c632b0b.avif" alt=""  id={style.img} />
           </div>
         </div>
       </div>

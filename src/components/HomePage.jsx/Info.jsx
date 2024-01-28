@@ -68,7 +68,7 @@ function Info(props) {
           <div className="row" id={style.row}>
             <div className="col" id={style.img2}>
               <div id={style.img}>
-                <img src="public/images/photo-1607237138185-eedd9c632b0b.avif" alt="" className={style.img} />
+                <img src="images/photo-1607237138185-eedd9c632b0b.avif" alt="" className={style.img} />
               </div>
             </div>
             <div

@@ -30,7 +30,7 @@ function Reason(props) {
             <div id={style.col}>
             <video
             id={style.video}
-              src="public/videos/shoe-store 1.mp4"
+              src="videos/shoe-store 1.mp4"
               width="100%"
               height="100%"
              
