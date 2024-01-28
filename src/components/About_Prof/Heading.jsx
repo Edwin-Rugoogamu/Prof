@@ -6,7 +6,7 @@ function Heading(props) {
     <div className={style.main}>
       <video autoPlay loop muted className={style.video}>
         <source
-          src="public/videos/video with students.mp4"
+          src="/videos/video with students.mp4"
           type="video/mp4"
         />
       </video>

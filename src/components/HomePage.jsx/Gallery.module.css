@@ -50,6 +50,7 @@
     border-radius: 10px;
     padding-left: 2%;
     padding-right: 2%;
+    border: none;
   }
   #row{
     text-align: center;
