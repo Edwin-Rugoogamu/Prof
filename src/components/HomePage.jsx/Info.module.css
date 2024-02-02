@@ -1,3 +1,9 @@
+
+
+
+  /* @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Raleway:wght@200;300&display=swap'); */
+  @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap");
+
 #container1 {
   /* background-image: url(images/JT-High-Res-1-2048x2048-removebg-preview.png); */
   background-color: white;
@@ -27,8 +33,8 @@
   padding-top: 0px;
   position: sticky;
   background: #0049af61;
-  background-image: linear-gradient(to top, #ddd5cada, transparent),
-    linear-gradient(to right, #ddd5ca, transparent);
+  background-image: linear-gradient(to top, white, transparent),
+    linear-gradient(to right, white, transparent);
   height: 100%;
   border: 1px solid black;
   border-bottom: 0;
@@ -40,12 +46,16 @@
   background-image: linear-gradient(to top, #0f131aed, transparent);
   height: 100%;
 }
+#containerpic{
+  width: 100%;
+  padding-top: 40px;
+}
 #col {
   padding-top: 150px;
   padding-left: 5%;
   font-size: 50px;
   font-weight: 100;
-  font-family: cursive;
+
   padding-bottom: 90px;
   color: black;
 }
@@ -55,35 +65,35 @@
 }
 .label2 {
   font-size: 70px;
-  font-style: italic;
-  /* font-family: Arial, Helvetica, sans-serif; */
+
   padding-left: 3%;
   color: #e4d7a6;
 }
 .h {
   padding-top: 30px;
-  font-family: Now;
-  font-size: 70px;
+  font-family: "Raleway", sans-serif;
+  font-size: 60px;
+  font-weight: 500;
 }
 .hSecond {
   padding-top: 40px;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 20px;
+  font-weight: 500;
 }
 .heading {
   font-size: 25px;
   /* padding-top: 20px; */
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-family: 'Oswald', sans-serif;
   color: #004aaf;
+  font-weight: 500;
 }
 
 #row {
-  background-color: #004aaf;
+  /* background-color: #004aaf; */
   padding-top: 0px;
   position: sticky;
-  background-image: linear-gradient(to bottom, #ddd5cafc, transparent);
+  background-image: linear-gradient(to bottom, white, transparent);
   height: 100%;
 }
 
@@ -98,7 +108,7 @@
   width: 60%;
   text-align: center;
 }
-.img{
+.img {
   width: 100%;
   height: 100%;
   border-top-right-radius: 225px;
@@ -111,9 +121,9 @@
 #i {
   color: white;
 
-  background-color: #ddd5ca;
+  background-color: white;
   padding-bottom: 70px;
-  height: 100vh;
+  height: 100%;
 }
 
 .h3 {
@@ -121,12 +131,15 @@
   padding-right: 5%;
   font-size: 40px;
   color: #000000;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
 }
 .h6 {
   padding-top: 40px;
   padding-right: 5%;
   font-size: 20px;
-  font-family: Now;
+  font-family: "Raleway", sans-serif;
+  color: #000000;
 }
 .button {
   margin-top: 50px;
@@ -134,16 +147,18 @@
   padding-top: 5px;
   padding-bottom: 10px;
   width: 20%;
-  background-color: #000000;
+  background-color: #004AAF;
   color: white;
   border: none;
   font-weight: 500;
+  /* font-family:Raleway; */
 }
 .weDo {
   padding-top: 80px;
   text-decoration: underline;
   font-size: 20px;
   color: #004aaf;
+  font-family: 'Oswald', sans-serif;
 }
 .explore {
   text-decoration: none;
@@ -192,20 +207,21 @@
     padding-top: 5px;
     padding-bottom: 10px;
     width: 50%;
-    /* background-color: #004aaf; */
+   
     color: white;
     border: none;
-    font-weight: 500;
+
+    margin-bottom: 20px;
   }
   .h3 {
     padding-top: 20px;
     padding-right: 5%;
-    font-size: 30px;
+    font-size: 20px;
   }
   .h6 {
     padding-top: 20px;
     padding-right: 5%;
-    font-size: 20px;
+    font-size: 12px;
   }
   .weDo {
     padding-top: 40px;
@@ -214,20 +230,21 @@
   }
   .h {
     padding-top: 30px;
-    font-family: Now;
-    font-size: 40px;
+
+    font-size: 23px;
   }
   .hSecond {
     padding-top: 20px;
-    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-      "Lucida Sans", Arial, sans-serif;
-    font-size: 17px;
+
+    font-size: 12px;
   }
   .heading {
     font-size: 15px;
     /* padding-top: 20px; */
-    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-      "Lucida Sans", Arial, sans-serif;
+
+  }
+  #container {
+   display: none;
   }
 }
 
@@ -235,12 +252,8 @@
 @media (450px <= width < 768px) {
   #header {
     padding-top: 0px;
-    position: sticky;
-    /* background: #070707a8; */
-    /* background-image: linear-gradient(to top, #0f131a, transparent), */
-    /* linear-gradient(to bottom, black, transparent); */
+    position: sticky; 
     height: 100%;
-    /* border: 1px solid black; */
     border-bottom: 0;
   }
   #img {
@@ -268,16 +281,17 @@
     /* color: white; */
     border: none;
     font-weight: 500;
+    margin-bottom: 20px;
   }
   .h3 {
     padding-top: 30px;
     padding-right: 5%;
-    font-size: 30px;
+    font-size: 25px;
   }
   .h6 {
     padding-top: 20px;
     padding-right: 5%;
-    font-size: 20px;
+    font-size: 15px;
   }
   .weDo {
     padding-top: 40px;
@@ -285,24 +299,25 @@
   }
   .h {
     padding-top: 30px;
-    font-family: Now;
-    font-size: 40px;
+
+    font-size: 30px;
   }
   .hSecond {
     padding-top: 20px;
-    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-      "Lucida Sans", Arial, sans-serif;
+
     font-size: 17px;
   }
   .heading {
     font-size: 15px;
     /* padding-top: 20px; */
-    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-      "Lucida Sans", Arial, sans-serif;
+
   }
   #i {
     height: 100%;
   }
+  #container {
+    display: none;
+   }
 }
 /* media */
 @media (768px <= width < 992px) {
@@ -330,25 +345,22 @@
   .h6 {
     padding-top: 20px;
     padding-right: 5%;
-    font-size: 18px;
+    font-size: 15px;
   }
 
   .h {
     padding-top: 30px;
-    font-family: Now;
-    font-size: 50px;
+    font-size: 40px;
   }
   .hSecond {
     padding-top: 40px;
-    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-      "Lucida Sans", Arial, sans-serif;
+
     font-size: 17px;
   }
   .heading {
     font-size: 20px;
     /* padding-top: 20px; */
-    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-      "Lucida Sans", Arial, sans-serif;
+ 
   }
   #i {
     height: 100%;

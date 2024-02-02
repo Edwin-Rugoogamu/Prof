@@ -23,6 +23,7 @@
     margin-top: 1%;
     margin-left: 4%;
     margin-right: 4%;
+    font-family: 'Oswald', sans-serif;
   }
   #link3{
     color: black;
@@ -102,12 +103,13 @@
   
 
   .logo{
-    width: 60px;
-    color: white;
+    width: 70px;
+  
+    
   }
 
   .donateButton{
-    background-color: #DDD5CA;
+    background-color: white;
     border: none;
     border-radius: 5px;
   padding-left: 40px;
@@ -224,7 +226,7 @@
   @media (450px <= width < 768px) {
     #Navbar {
   
-      color: white;
+      /* color: white; */
       position: fixed;
       width: 100%;
       z-index: 1000;
@@ -297,7 +299,7 @@
     }
     #Link {
       text-decoration: none;
-      color: white;
+      /* color: white; */
       font-size: smaller;
       margin-right: 1%;
     }
@@ -307,12 +309,12 @@
       padding-right: 10%;
     }
     .donateButton{
-      background-color: #DDD5CA;
+  
       border: none;
       border-radius: 5px;
     padding-left: 20px;
     padding-right: 20px;
-    color: white;
+   
     height: 40px;
     margin-top: -7px;
     

@@ -1,3 +1,5 @@
+
+
 #container{
     /* background-image: url(/images/Blackground.jpg); */
 
@@ -18,13 +20,14 @@
 .mission{
     padding-top: 60px;
     padding-bottom: 20px;
+    font-family: 'Oswald', sans-serif;
 }
 .mission2{
     padding-top: 20px;
     padding-bottom: 50px;
-    font-size: 60px;
-      /* color: transparent;
-  -webkit-text-stroke: 2px white;  */
+    font-size: 35px;
+    font-family: "Raleway", sans-serif;
+
 }
 .mission3{
     padding-top: 0px;
@@ -37,13 +40,14 @@
         height: 100%;
     }
     .mission2{
-        font-size: 30px;
+        font-size: 20px;
     }
     .mission3{
         font-size: 18px;
     }
     .mission{
         padding-top: 40px;
+        font-size: 15px;
     }
 }
 
@@ -53,13 +57,14 @@
         height: 100%;
     }
     .mission2{
-        font-size: 40px;
+        font-size: 20px;
     }
     .mission3{
         font-size: 18px;
     }
     .mission{
         padding-top: 40px;
+        font-size: 15px;
     }
 }
 /* media */
@@ -68,7 +73,7 @@
         height: 100%;
     }
     .mission2{
-        font-size: 40px;
+        font-size: 30px;
     }
     .mission3{
         font-size: 20px;

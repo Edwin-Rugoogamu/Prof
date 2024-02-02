@@ -27,22 +27,9 @@ function Footer(props) {
             </p>
           </div>
           <div className="col-xl-3 col-lg-3 col-md-4 col-sm-12 col-12">
-            <h4 className={style.h4}>Core Principles</h4>
+            <h4 className={style.h4}>Mission</h4>
             <p>
-             <ul>
-              <li>
-                Empower
-              </li>
-              <li>
-                Elevate
-              </li>
-              <li>
-                Engage
-              </li>
-              <li>
-                Educate
-              </li>
-             </ul>
+            We dream of a society where every East African has access to higher education and where threats to biodiversity in the African ecosystem are managed adequately.
              
             </p>
           </div>
@@ -89,7 +76,7 @@ function Footer(props) {
         <div className="row">
           <div className="col"></div>
           <div className="col-xl-4 col-lg-4 col-md-5 col-sm-6 col-10"> 
-          <FaCopyright /> CopyRight Made By Edwin Rugoogamu
+          <FaCopyright /> Prof John Ntambirweki Foundation
          </div>
           <div className="col"></div>
         </div>

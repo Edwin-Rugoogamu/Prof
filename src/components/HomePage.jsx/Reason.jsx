@@ -26,6 +26,7 @@ function Reason(props) {
     <div className={style.main}>
       <div className="container-fluid" id={style.container}>
         <div className="row">
+        {/* <div className="col"></div> */}
           <div className="col" >
             <div id={style.col}>
             <video
@@ -36,11 +37,12 @@ function Reason(props) {
              
               volume={1}
               controls
-              autoPlay
+              
             ></video>
             </div>
            
           </div>
+         
         </div>
       </div>
       </div>

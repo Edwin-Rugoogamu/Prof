@@ -7,7 +7,7 @@ function About(props) {
       <div className="container-fluid" id={style.container}>
         <h1 id={style.h1}>About Prof. Ntambirweki</h1>
         <div className="row" id={style.col}>
-          <div className="col" id={style.col3}>
+          <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12" id={style.col3}>
             <p>
               Prof. Ntambirweki was born in 1955 to Erimonsi and Evangeline
               Ntambirweki in Kagongi, Kashaari District. <br></br>He attained
@@ -24,7 +24,7 @@ function About(props) {
         </div>
 
         <div className="row" id={style.col}>
-          <div className="col" id={style.col4}>
+          <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12" id={style.col4}>
             {/* <img src="public/images/JT-High-Res-1-2048x2048.png" alt="" id={style.img} /> */}
           </div>
           <div className="col" id={style.col3}>
@@ -42,7 +42,7 @@ function About(props) {
         </div>
 
         <div className="row" id={style.col}>
-          <div className="col" id={style.col3}>
+          <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12" id={style.col3}>
             <p>
               Upon completing his education of his Bachelor of Laws from
               Makerere (LLB), he was appointed a teaching assistant at Makerere
@@ -60,7 +60,7 @@ function About(props) {
         </div>
 
         <div className="row" id={style.col}>
-          <div className="col" id={style.col4}>
+          <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12" id={style.col4}>
             {/* <img src="public/images/JT-High-Res-1-2048x2048.png" alt="" id={style.img} /> */}
           </div>
           <div className="col" id={style.col3}>
@@ -77,7 +77,7 @@ function About(props) {
           </div>
         </div>
         <div className="row" id={style.col}>
-          <div className="col" id={style.col3}>
+          <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12" id={style.col3}>
             <p>
               In Canada, Prof. Ntambirweki enrolled for his doctorate at Queens
               University, Toronto Canada, but before he completed his doctorate,
@@ -91,7 +91,7 @@ function About(props) {
           </div>
         </div>
         <div className="row" id={style.col}>
-          <div className="col" id={style.col4}>
+          <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12" id={style.col4}>
             {/* <img src="public/images/JT-High-Res-1-2048x2048.png" alt="" id={style.img} /> */}
           </div>
           <div className="col" id={style.col3}>
@@ -117,12 +117,12 @@ function About(props) {
               Centre.
             </p>
           </div>
-          <div className="col" id={style.col5}>
+          <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12" id={style.col5}>
             {/* <img src="public/images/JT-High-Res-1-2048x2048.png" alt="" id={style.img} /> */}
           </div>
         </div>
         <div className="row" id={style.col}>
-          <div className="col" id={style.col4}>
+          <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12" id={style.col4}>
             {/* <img src="public/images/JT-High-Res-1-2048x2048.png" alt="" id={style.img} /> */}
           </div>
           <div className="col" id={style.col3}>
@@ -150,12 +150,12 @@ function About(props) {
               Nigeria, Ghana, Sierra Leonne, Egypt, Pakistan and Ethiopia.
             </p>
           </div>
-          <div className="col" id={style.col5}>
+          <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12" id={style.col5}>
             {/* <img src="public/images/JT-High-Res-1-2048x2048.png" alt="" id={style.img} /> */}
           </div>
         </div>
         <div className="row" id={style.col}>
-          <div className="col" id={style.col4}>
+          <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12" id={style.col4}>
             {/* <img src="public/images/JT-High-Res-1-2048x2048.png" alt="" id={style.img} /> */}
           </div>
           <div className="col" id={style.col3}>

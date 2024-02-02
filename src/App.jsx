@@ -11,6 +11,8 @@ import Donate from "./components/Donate/Donate";
 import Lectures from "./components/Lectures/Lectures";
 import AboutProf from "./components/About_Prof/AboutProf";
 import Gallery from "./components/Gallery/Gallery";
+import SnapShot from "./components/SnapShot/SnapShot";
+import Objectives from "./components/Objectives/Objectives";
 
 function App() {
   return (
@@ -29,6 +31,8 @@ function App() {
           <Route path="/lectures"  element={<Lectures/>}></Route>
           <Route path="/professor"  element={<AboutProf/>}></Route>
           <Route path="/gallery"  element={<Gallery/>}></Route>
+          <Route path="/snapshot"  element={<SnapShot/>}></Route>
+          <Route path="/objectives" element={<Objectives/>}></Route>
         </Routes>
       </Router>
     </>

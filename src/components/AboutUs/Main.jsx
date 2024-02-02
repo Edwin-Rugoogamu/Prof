@@ -32,17 +32,17 @@ function main(props) {
         <div className="row">
           <div className="col">
             <Link to="/about" className={style.h6}>
-              <h3 className={style.h3}>Mission </h3>
+              <h3 className={style.h3}>Objective 1 & 2 </h3>
             </Link>
           </div>
           <div className="col">
             <Link to="about2" className={style.h6}>
-              <h3 className={style.h3}>Objectives </h3>
+              <h3 className={style.h3}>Objective 3 & 4 </h3>
             </Link>
           </div>
           <div className="col">
             <Link to="about3" className={style.h6}>
-              <h3 className={style.h3}>Career </h3>
+              <h3 className={style.h3}>Objective 5 & 6 </h3>
             </Link>
           </div>
         </div>

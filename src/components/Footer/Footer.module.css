@@ -11,6 +11,7 @@
      border-top: 1px solid white;
    
      padding-top: 30px;
+     font-family: "Raleway", sans-serif;
 }
 .icon2{
      font-size: 25px;
@@ -20,9 +21,11 @@
 }
 .h4{
      padding-bottom: 20px;
+     font-family: 'Oswald', sans-serif;
+     
 }
 .donateButton{
-     background-color: #DDD5CA;
+     background-color: white;
      border: none;
      border-radius: 5px;
    padding-left: 40px;
@@ -34,6 +37,7 @@
    /* font-size: smaller; */
   text-align: center;
   margin-top: 50px;
+  font-family: 'Oswald', sans-serif;
    }
    .accountIcon {
      font-size: 30px;
@@ -46,8 +50,10 @@
      text-align: center;
    }
    #container3{
-     border-top: 2px solid white;
-     border-bottom: 2px solid white;
+     padding-top: 10px;
+     padding-bottom: 10px;
+     border-top: 1px solid white;
+     border-bottom: 1px solid white;
    }
 
 

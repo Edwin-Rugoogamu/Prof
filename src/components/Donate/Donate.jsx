@@ -15,30 +15,16 @@ function Donate(props) {
 
       <div className="container-fluid" id={style.container}>
         <div className="row">
-          <div className="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12">
+          <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
             <div className={style.img2}>
-              <img src="images/candle.jpg" alt="" className={style.img} />
+              <img src="/images/candle.jpg" alt="" className={style.img} />
             </div>
           </div>
           <div className="col">
             <h1 id={style.h1}>Donate to JT Foundation </h1>
             <div className="container">
               <div className="row"id={style.row}>
-                <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
-                  doloremque modi reprehenderit. Saepe sit illum numquam
-                  obcaecati nesciunt porro ut eligendi asperiores? Pariatur unde
-                  quos totam cupiditate aut. Iure facere quas excepturi natus
-                  cumque odio dignissimos facilis corporis, dolorem
-                  necessitatibus illo assumenda labore provident praesentium
-                  laborum, expedita ipsa ducimus aspernatur voluptates odit.
-                  Dolor explicabo vel earum error, quidem cum, architecto nulla
-                  rerum natus fuga in quasi quia. Corporis, vero. Laboriosam,
-                  perspiciatis praesentium dolorum ipsum molestias non porro
-                  libero laborum quae ipsa quidem quas, vitae, sequi quasi! Eum
-                  earum quod temporibus officia eligendi aspernatur, quisquam
-                  commodi ab dolore molestias iure ea.
-                </div>
+               
                 <div className="col" id={style.col}>
                     <h4><MdAccountBalance /> Bank Account</h4>
                     <p>Lorem, ipsum dolor.</p>

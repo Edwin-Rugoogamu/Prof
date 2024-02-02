@@ -1,5 +1,5 @@
 .main{
-  background-color: #DDD5CA;
+  background-color: white;
 }
 
 #container {
@@ -22,10 +22,8 @@
 
 #col{
   /* border: 1px solid blue; */
-  box-shadow: 0 8px 16px #004AAF, 
-  0 0 20px #004AAF,
-  0 0 20px rgba(201, 208, 209, 0.5),
-  0 0 10px rgba(9, 9, 9, 0.5);
+  
+
   border-radius: 10px;
 }
 @media (0px <= width < 450px) {

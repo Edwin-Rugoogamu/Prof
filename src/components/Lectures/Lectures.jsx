@@ -10,7 +10,7 @@ function Lectures(props) {
     return (
         <div className={style.main}>
             <div><NavBar/></div>
-            <div><Heading/></div>
+            {/* <div><Heading/></div> */}
             <div><LatestLectures/></div>
             {/* <div><PastLectures/></div> */}
             <div><Footer/></div>

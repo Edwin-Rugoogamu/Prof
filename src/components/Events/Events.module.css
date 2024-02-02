@@ -2,11 +2,14 @@
     text-align: center;
     padding-top: 100px;
     padding-bottom: 20px;
-    background-color: #DDD5CA;
+    background-color: white;
     color: #004AAF;
 }
 .main2{
-    background-color: #DDD5CA;
+    background-color: white;
+}
+.h1{
+    font-family: 'Oswald', sans-serif;
 }
 
 

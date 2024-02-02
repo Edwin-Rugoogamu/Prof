@@ -1,4 +1,4 @@
-import React,{ useEffect }  from "react";
+import React, { useEffect } from "react";
 import style from "./Info.module.css";
 import Carousel from "react-bootstrap/Carousel";
 import Reason from "./Reason";
@@ -10,7 +10,6 @@ import Gallery from "./Gallery";
 import { Link } from "react-router-dom";
 
 function Info(props) {
-
   const controls = useAnimation();
   const [ref, inView] = useInView({
     triggerOnce: false,
@@ -23,9 +22,9 @@ function Info(props) {
 
   React.useEffect(() => {
     if (inView) {
-      controls.start('visible');
+      controls.start("visible");
     } else {
-      controls.start('hidden');
+      controls.start("hidden");
     }
   }, [controls, inView]);
   return (
@@ -35,30 +34,36 @@ function Info(props) {
         <div className="container-fluid">
           <div className="row" id={style.header}>
             <div
-              className="col-xl-8 col-lg-8 col-md-8 col-sm-12 col-12"
+              className="col-xl-7 col-lg-8 col-md-8 col-sm-12 col-12"
               id={style.col}
-              
             >
-              <h5 className={style.heading}>Remembering PROF. JOHN NTAMBIRWEKI </h5>
+              <h5 className={style.heading}>
+                Remembering PROF. JOHN NTAMBIRWEKI{" "}
+              </h5>
               <h6 className={style.heading}> (1955-2023)</h6>
-              <motion.h1 className={style.h}ref={ref}
-            initial="hidden"
-            animate={controls}
-            variants={variants}
-            transition={{ duration: 0.5 }}>
-                We are the official legacy organisation of one of the world's
-                most iconic leaders, and his life-long partner
+              <motion.h1
+                className={style.h}
+                ref={ref}
+                initial="hidden"
+                animate={controls}
+                variants={variants}
+                transition={{ duration: 0.5 }}
+              >
+                We are the official legacy organization of one of the most
+                impactful lawyers and academics from Uganda.
               </motion.h1>
               <h6 className={style.hSecond}>
                 {" "}
-                Founded in --- ,The John Ntambirweki Foundation strives to
+                Founded in 2023,The John Ntambirweki Foundation strives to
                 preserve the legacy of the --, while taking their example into
                 the future by growing and facilitating powerful and courages
                 voice of uncompromised bravery in the world{" "}
               </h6>
             </div>
             <div className="col " id={style.container}>
-              <div id={style.containerpic}></div>
+              <div id={style.containerpic}>
+                {/* <img src="public/images/JT-High-Res-1-2048x2048.png" alt="" id={style.containerpic} /> */}
+              </div>
             </div>
           </div>
         </div>
@@ -68,28 +73,39 @@ function Info(props) {
           <div className="row" id={style.row}>
             <div className="col" id={style.img2}>
               <div id={style.img}>
-                <img src="images/photo-1607237138185-eedd9c632b0b.avif" alt="" className={style.img} />
+                <img
+                  src="images/photo-1607237138185-eedd9c632b0b.avif"
+                  alt=""
+                  className={style.img}
+                />
               </div>
             </div>
-            <div
-              className="col-xl-7 col-lg-7 col-md-7"
-                id={style.wedo}
-            >
+            <div className="col-xl-7 col-lg-7 col-md-7" id={style.wedo}>
               <h6 className={style.weDo}>Who We Are </h6>
               <h3 className={style.h3}>
-              The John Ntambirweki Foundation is a nonprofit organization dedicated to the indelible legacy of Prof. John Ntambirweki in the education sector in East Africa and his contribution to international law and international environmental law. 
+                The John Ntambirweki Foundation is a nonprofit organization
+                dedicated to the indelible legacy of Prof. John Ntambirweki in
+                the education sector in East Africa and his contribution to
+                international law and international environmental law.
               </h3>
               <h6 className={style.h6}>
-              The Foundation is incorporated and registered under Ugandan law as John Ntambirweki Trust Limited, a company limited by guarantee. 
+                The Foundation is incorporated and registered under Ugandan law
+                as John Ntambirweki Trust Limited, a company limited by
+                guarantee.
               </h6>
-              <button className={style.button} > <Link to="/about" className={style.explore}>EXPLORE</Link></button>
+              <button className={style.button}>
+                {" "}
+                <Link to="/about" className={style.explore}>
+                  EXPLORE
+                </Link>
+              </button>
             </div>
           </div>
         </div>
         <Reason />
-        <Mission/>
-        <News/>
-        <Gallery/>
+        {/* <Mission/> */}
+        {/* <News/> */}
+        {/* <Gallery/> */}
       </div>
     </>
   );

@@ -3,9 +3,12 @@
   padding-right: 5%;
   padding-bottom: 20px;
 }
+#container{
+  padding-bottom: 100px;
+}
 #col {
-  background-color: grey;
-  height: 500px;
+  /* background-color: grey; */
+  /* height: 500px; */
 }
 #card {
   border: none;
@@ -25,9 +28,21 @@
   border: none;
   font-weight: 500;
 }
+.img{
+  width: 100%;
+  border: 1px solid #004aaf;
+  border-radius: 10px;
+}
 .h4 {
   padding-top: 30px;
   padding-bottom: 30px;
+  font-family: 'Oswald', sans-serif;
+  color:#004aaf
+ 
+}
+.h{
+  color: #004aaf;
+  font-family: 'Oswald', sans-serif;
 }
 
 @media (0px <= width < 450px) {

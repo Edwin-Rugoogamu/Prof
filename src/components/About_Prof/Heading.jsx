@@ -17,6 +17,7 @@ function Heading(props) {
           <div className="col" id={style.col}>
             Prof. Ntambirweki  <br></br>
           (1955-2023)</div>
+         
        
         </div>
       </div>

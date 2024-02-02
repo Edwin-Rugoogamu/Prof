@@ -66,7 +66,7 @@ function NavBar(props) {
                 onClick={() => scrollToSection("section1")}
               >
                 {" "}
-                <img src="images/2.png" alt="" className={style.logo} />
+                <img src="/images/Prof JT Foundation Logo PNG.png" alt="" className={style.logo} />
               </Link>
             </Navbar.Brand>
 
@@ -86,7 +86,7 @@ function NavBar(props) {
             >
               <Offcanvas.Header closeButton>
                 <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`}>
-                  LOGO
+                <img src="/images/Prof JT Foundation Logo PNG.png" alt="" className={style.logo} />
                 </Offcanvas.Title>
               </Offcanvas.Header>
 
@@ -112,7 +112,7 @@ function NavBar(props) {
                     >
                       {" "}
                       <FaRegNewspaper className={style.accountIcon} />
-                     PRO.JOHN
+                     BIO
                     </Nav>
                   </Link>
                   <Link to="/lectures" id={style.Link} onClick={closeOffcanvas}>
