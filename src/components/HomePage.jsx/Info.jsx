@@ -62,7 +62,7 @@ function Info(props) {
             </div>
             <div className="col " id={style.container}>
               <div id={style.containerpic}>
-                {/* <img src="public/images/JT-High-Res-1-2048x2048.png" alt="" id={style.containerpic} /> */}
+                {/* <img src="/images/landingPage2.jpg" alt="" id={style.containerpic} /> */}
               </div>
             </div>
           </div>

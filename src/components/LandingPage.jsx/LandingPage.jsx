@@ -4,6 +4,7 @@ import NavBar from '../NavBar/NavBar';
 import Info from '../HomePage.jsx/Info';
 import UpperHeader from '../UpperHeader/UpperHeader';
 import Footer from '../Footer/Footer';
+import News from '../HomePage.jsx/News';
 
 
 function LandingPage(props) {
@@ -12,6 +13,7 @@ function LandingPage(props) {
         <div className={style.div}>
         {/* <div><UpperHeader/></div> */}
         <div><NavBar/></div>
+        <div><News/></div>
         <div><Info/></div>
         <div><Footer/></div>
         </div>

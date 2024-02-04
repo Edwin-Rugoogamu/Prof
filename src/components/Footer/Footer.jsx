@@ -19,7 +19,7 @@ function Footer(props) {
         
           <div className="col-xl-3 col-lg-3 col-md-4 col-sm-12 col-12">
             <h4 className={style.h4}>About Us</h4>
-            <p>
+            <p className={style.p} >
               The John Ntambirweki Foundation is a nonprofit organization
               dedicated to the indelible legacy of Prof. John Ntambirweki in the
               education sector in East Africa 
