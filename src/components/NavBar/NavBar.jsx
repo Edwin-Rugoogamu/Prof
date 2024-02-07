@@ -101,7 +101,7 @@ function NavBar(props) {
                       onClick={() => scrollToSection("section3")}
                     >
                       {" "}
-                      <FaRegNewspaper className={style.accountIcon} />
+                      {/* <FaRegNewspaper className={style.accountIcon} /> */}
                      ABOUT US
                     </Nav>
                   </Link>
@@ -111,8 +111,8 @@ function NavBar(props) {
                       onClick={() => scrollToSection("section3")}
                     >
                       {" "}
-                      <FaRegNewspaper className={style.accountIcon} />
-                     BIO
+                      {/* <FaRegNewspaper className={style.accountIcon} /> */}
+                      ABOUT PROF. JOHN NTAMBIRWEKI
                     </Nav>
                   </Link>
                   <Link to="/lectures" id={style.Link} onClick={closeOffcanvas}>
@@ -121,7 +121,7 @@ function NavBar(props) {
                       onClick={() => scrollToSection("section3")}
                     >
                       {" "}
-                      <IoSchoolSharp className={style.accountIcon} />
+                      {/* <IoSchoolSharp className={style.accountIcon} /> */}
                       LECTURES
                     </Nav>
                   </Link>
@@ -132,7 +132,7 @@ function NavBar(props) {
                       onClick={() => scrollToSection("section3")}
                     >
                       {" "}
-                      <FaRegCalendarAlt className={style.accountIcon} />
+                      {/* <FaRegCalendarAlt className={style.accountIcon} /> */}
                       EVENTS
                     </Nav>
                   </Link>

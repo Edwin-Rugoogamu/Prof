@@ -91,7 +91,7 @@ function FeaturedEvents(props) {
             className="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12"
             id={style.col}
           >
-            <img src="/images/lecture.png" alt="" className={style.img} />
+            <img src="/images/riverclean.png" alt="" className={style.img} />
           </div>
           <div className="col">
             <h5 className={style.h}>
@@ -124,7 +124,7 @@ function FeaturedEvents(props) {
             className="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12"
             id={style.col}
           >
-            <img src="/images/lecture.png" alt="" className={style.img} />
+            <img src="/images/Footballtourna.png" alt="" className={style.img} />
           </div>
           <div className="col">
             <h5 className={style.h}>
@@ -157,7 +157,7 @@ function FeaturedEvents(props) {
             className="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12"
             id={style.col}
           >
-            <img src="/images/lecture.png" alt="" className={style.img} />
+            <img src="/images/plantingtrees.png" alt="" className={style.img} />
           </div>
           <div className="col">
             <h5 className={style.h}>

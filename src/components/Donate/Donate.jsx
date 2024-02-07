@@ -5,6 +5,7 @@ import Footer from "../Footer/Footer";
 import { MdAccountBalance } from "react-icons/md";
 import { FaPhoneAlt } from "react-icons/fa";
 import { FaPaypal } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 function Donate(props) {
   return (
@@ -26,14 +27,18 @@ function Donate(props) {
               <div className="row"id={style.row}>
                
                 <div className="col" id={style.col}>
-                    <h4><MdAccountBalance /> Bank Account</h4>
-                    <p>Lorem, ipsum dolor.</p>
+                    {/* <h4><MdAccountBalance /> Bank Account</h4>
+                    <p>Lorem, ipsum dolor.</p> */}
 
-                    <h4> <FaPhoneAlt /> Phone Number</h4>
-                    <p>+256775722637</p>
+                    <h4> <FaPhoneAlt /> Phone Numbers</h4>
+                    <Link to="tel:+256752444228"  className={style.Link}> +256752444228</Link>,  <br></br> 
+             <Link to="tel:+256772647796"  className={style.Link}> +256772647796</Link>,  <br></br>  
+             <Link to="tel:+256782223223"  className={style.Link}> +256782223223</Link>,  <br></br>
+             <Link to="tel:+256782300455"  className={style.Link}> +256782300455</Link>  
+                   
 
-                    <h4> <FaPaypal />PayPal Account</h4>
-                    <p>Lorem, ipsum dolor.</p>
+                    {/* <h4> <FaPaypal />PayPal Account</h4>
+                    <p>Lorem, ipsum dolor.</p> */}
                 </div>
               </div>
             </div>

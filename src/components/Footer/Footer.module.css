@@ -17,7 +17,8 @@
      font-size: 25px;
 }
 .label{
-     margin-right:20%;
+     margin-right:10%;
+     color: white;
 }
 .h4{
      padding-bottom: 20px;
@@ -55,7 +56,20 @@
      border-top: 1px solid white;
      border-bottom: 1px solid white;
    }
-
+ #col{
+  font-family: "Raleway", sans-serif;
+ }
+ .icon{
+  font-size: 20px;
+ }
+ .number{
+  font-size: 10px;
+ 
+ }
+ .Link{
+  color: white;
+  text-decoration: none;
+ }
 
    @media (0px <= width < 450px) {
      .donateButton{

@@ -13,7 +13,7 @@ function LandingPage(props) {
         <div className={style.div}>
         {/* <div><UpperHeader/></div> */}
         <div><NavBar/></div>
-        <div><News/></div>
+        {/* <div><News/></div> */}
         <div><Info/></div>
         <div><Footer/></div>
         </div>

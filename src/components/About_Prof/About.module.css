@@ -26,6 +26,24 @@
   margin-bottom: 100px;
   font-family: "Raleway", sans-serif;
   font-weight: 500;
+  height: 600px;
+}
+#col7 {
+    text-align: center;
+    /* padding-top: 20px; */
+  text-align: start;
+  font-size: 20px;
+  /* box-shadow:  0 0 2px #c9cbd1, 0 0 2px #004AAF,
+  0 0 10px #151050bb, 0 0 5px #030404;  */
+  background-color: white;
+  /* color: white; */
+  margin-top: 30px;
+  border-radius: 20px;
+  border: 1px solid #004AAF;
+  margin-bottom: 100px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  /* background-color: #004AAF; */
 }
 #img{
     width: 100%;
@@ -33,13 +51,13 @@
     padding-top: 0px;
 }
 #col2{
-    background-image: url("/images/baby.webp");
+    background-image: url("/images/happy.jpg");
     background-repeat: no-repeat;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
 
     /* background-attachment: fixed; */
-     background-size: cover;
+     background-size: 100% 100%;
      background-position: center;
 }
 #col3{
@@ -70,6 +88,7 @@
 #h1{
   color: #004AAF;
   font-family: 'Oswald', sans-serif;
+  text-align: left;
 }
 @media (0px <= width < 450px) {
   

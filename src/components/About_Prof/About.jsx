@@ -5,9 +5,29 @@ function About(props) {
   return (
     <div className={style.main}>
       <div className="container-fluid" id={style.container}>
-        <h1 id={style.h1}>About Prof. Ntambirweki</h1>
+        <h1 id={style.h1}>ABOUT PROF. JOHN  NTAMBIRWEKI</h1>
+        <div className="row" id={style.col7}>
+          <div
+            className="col-xl-12 col-lg-6 col-md-6 col-sm-12 col-12"
+            id={style.col3}
+          >
+            <p>
+              Prof. John Ntambirweki (1955-2023) was a trailblazing, towering
+              legal mind with an unmatched passion for the rule of law,
+              environmental law, international law, and the education of young
+              Ugandans, irrespective of their backgrounds. He fulfilled this
+              passion with distinction, honesty, humility and generosity.
+            </p>
+          </div>
+          {/* <div className="col" id={style.col2}> */}
+          {/* <img src="public/images/JT-High-Res-1-2048x2048.png" alt="" id={style.img} /> */}
+          {/* </div> */}
+        </div>
         <div className="row" id={style.col}>
-          <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12" id={style.col3}>
+          <div
+            className="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12"
+            id={style.col3}
+          >
             <p>
               Prof. Ntambirweki was born in 1955 to Erimonsi and Evangeline
               Ntambirweki in Kagongi, Kashaari District. <br></br>He attained
@@ -24,7 +44,10 @@ function About(props) {
         </div>
 
         <div className="row" id={style.col}>
-          <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12" id={style.col4}>
+          <div
+            className="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12"
+            id={style.col4}
+          >
             {/* <img src="public/images/JT-High-Res-1-2048x2048.png" alt="" id={style.img} /> */}
           </div>
           <div className="col" id={style.col3}>
@@ -42,7 +65,10 @@ function About(props) {
         </div>
 
         <div className="row" id={style.col}>
-          <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12" id={style.col3}>
+          <div
+            className="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12"
+            id={style.col3}
+          >
             <p>
               Upon completing his education of his Bachelor of Laws from
               Makerere (LLB), he was appointed a teaching assistant at Makerere
@@ -60,7 +86,10 @@ function About(props) {
         </div>
 
         <div className="row" id={style.col}>
-          <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12" id={style.col4}>
+          <div
+            className="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12"
+            id={style.col4}
+          >
             {/* <img src="public/images/JT-High-Res-1-2048x2048.png" alt="" id={style.img} /> */}
           </div>
           <div className="col" id={style.col3}>
@@ -77,7 +106,10 @@ function About(props) {
           </div>
         </div>
         <div className="row" id={style.col}>
-          <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12" id={style.col3}>
+          <div
+            className="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12"
+            id={style.col3}
+          >
             <p>
               In Canada, Prof. Ntambirweki enrolled for his doctorate at Queens
               University, Toronto Canada, but before he completed his doctorate,
@@ -91,7 +123,10 @@ function About(props) {
           </div>
         </div>
         <div className="row" id={style.col}>
-          <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12" id={style.col4}>
+          <div
+            className="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12"
+            id={style.col4}
+          >
             {/* <img src="public/images/JT-High-Res-1-2048x2048.png" alt="" id={style.img} /> */}
           </div>
           <div className="col" id={style.col3}>
@@ -117,12 +152,18 @@ function About(props) {
               Centre.
             </p>
           </div>
-          <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12" id={style.col5}>
+          <div
+            className="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12"
+            id={style.col5}
+          >
             {/* <img src="public/images/JT-High-Res-1-2048x2048.png" alt="" id={style.img} /> */}
           </div>
         </div>
         <div className="row" id={style.col}>
-          <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12" id={style.col4}>
+          <div
+            className="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12"
+            id={style.col4}
+          >
             {/* <img src="public/images/JT-High-Res-1-2048x2048.png" alt="" id={style.img} /> */}
           </div>
           <div className="col" id={style.col3}>
@@ -131,6 +172,10 @@ function About(props) {
               private tertiary institution, which later became the Uganda
               Pentecostal University, in 2005. He was the head of the
               institution from its inception, until his demise in April 2022.
+              Under his leadership and mentorship, thousands of East African
+              youth attained university level education through an innovative
+              bursary and scholarship scheme at the Uganda
+              Pentecostal University.
             </p>
           </div>
         </div>
@@ -150,12 +195,18 @@ function About(props) {
               Nigeria, Ghana, Sierra Leonne, Egypt, Pakistan and Ethiopia.
             </p>
           </div>
-          <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12" id={style.col5}>
+          <div
+            className="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12"
+            id={style.col5}
+          >
             {/* <img src="public/images/JT-High-Res-1-2048x2048.png" alt="" id={style.img} /> */}
           </div>
         </div>
         <div className="row" id={style.col}>
-          <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12" id={style.col4}>
+          <div
+            className="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12"
+            id={style.col4}
+          >
             {/* <img src="public/images/JT-High-Res-1-2048x2048.png" alt="" id={style.img} /> */}
           </div>
           <div className="col" id={style.col3}>
@@ -167,7 +218,9 @@ function About(props) {
               educators and the East African academic community as a whole. In
               the last 25 years of his short life, Prof. Ntambirweki dedicated
               his life to improving access to higher education for communities
-              throughout East Africa and beyond.
+              throughout East Africa and beyond. Prof. Ntambirweki left an
+              indelible mark on everyone he encountered. His bubbly personality
+              and sense of humour are greatly missed.
             </p>
           </div>
         </div>

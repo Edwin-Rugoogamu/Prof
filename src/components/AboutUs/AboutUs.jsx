@@ -15,10 +15,12 @@ function AboutUs(props) {
         <div className={style.main}>
             <div><NavBar/></div>
             <div><OurStory/></div>
+            <div><About1/></div>
+            <div><Mission/></div>
             <div><Principles/></div>
             {/* <div><Foundation/></div> */}
-            <div><Mission/></div>
-            <div><About1/></div>
+           
+            
             {/* <div><Main/></div> */}
             <div><Footer/></div>
         </div>

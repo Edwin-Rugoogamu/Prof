@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import style from "./Info.module.css";
 import Carousel from "react-bootstrap/Carousel";
 import Reason from "./Reason";
-import { motion, useAnimation } from "framer-motion";
+import {motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import Mission from "./Mission";
 import News from "./News";
@@ -27,6 +27,9 @@ function Info(props) {
       controls.start("hidden");
     }
   }, [controls, inView]);
+
+
+  
   return (
     <>
       <div id={style.container1}>
@@ -54,11 +57,15 @@ function Info(props) {
               </motion.h1>
               <h6 className={style.hSecond}>
                 {" "}
-                Founded in 2023,The John Ntambirweki Foundation strives to
-                preserve the legacy of the --, while taking their example into
-                the future by growing and facilitating powerful and courages
-                voice of uncompromised bravery in the world{" "}
+                Founded in 2023, The John Ntambirweki Foundation strives to
+                preserve the legacy of Prof. John Ntambirweki.
               </h6>
+              <button className={style.button2}>
+                {" "}
+                <Link to="/about" className={style.explore}>
+                  ABOUT PROF.JOHN NTAMBIRWEKI
+                </Link>
+              </button>
             </div>
             <div className="col " id={style.container}>
               <div id={style.containerpic}>
@@ -73,16 +80,15 @@ function Info(props) {
           <div className="row" id={style.row}>
             <div className="col" id={style.img2}>
               <div id={style.img}>
-                <img
-                  src="images/photo-1607237138185-eedd9c632b0b.avif"
-                  alt=""
-                  className={style.img}
-                />
+                <img src="/images/graduate2.jpg" alt="" className={style.img} />
               </div>
             </div>
             <div className="col-xl-7 col-lg-7 col-md-7" id={style.wedo}>
               <h6 className={style.weDo}>Who We Are </h6>
-              <h3 className={style.h3}>
+              <h3
+                className={style.h3}
+              
+              >
                 The John Ntambirweki Foundation is a nonprofit organization
                 dedicated to the indelible legacy of Prof. John Ntambirweki in
                 the education sector in East Africa and his contribution to

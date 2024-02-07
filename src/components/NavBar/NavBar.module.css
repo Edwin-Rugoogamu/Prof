@@ -24,6 +24,11 @@
     margin-left: 4%;
     margin-right: 4%;
     font-family: 'Oswald', sans-serif;
+    
+  }
+  #Link2 {
+   font-size: 15px;
+    
   }
   #link3{
     color: black;
@@ -76,12 +81,12 @@
     padding-right: 20%;
   }
   .accountIcon {
-    font-size: 30px;
+    font-size: 15px;
     /* width: 200%; */
     padding-right: 10%;
   }
   .accountIcon2 {
-    font-size: 30px;
+    font-size: 15px;
     /* width: 200%; */
     padding-right: 6%;
   }

@@ -19,9 +19,7 @@ function LatestLectures(props) {
             id={style.col}
           >
             <h5 className={style.h}> Annual Memorial Lecture in conjunction with Uganda Pentecostal University</h5>
-            <p className={style.p1}>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid, non?
-             </p>
+            
              <h5 className={style.h}>Speakers</h5>
              <p className={style.p4}>
          <li>lorem2</li>

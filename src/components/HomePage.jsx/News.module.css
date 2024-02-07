@@ -1,13 +1,13 @@
 .main {
   background-color: #ddd5ca;
   text-align: center;
-  padding-top: 90px;
+  padding-top: 50px;
   
 
-  height: 100vh;
+  /* height: 100dvh; */
 }
 .img {
-  height: 500px;
+  /* height: 500px; */
   background-color: grey;
   width: 100%;
   height: 100%;
