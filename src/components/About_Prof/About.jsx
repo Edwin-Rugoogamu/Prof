@@ -1,11 +1,35 @@
 import React from "react";
 import style from "./About.module.css";
+import { motion, useAnimation } from "framer-motion";
 
 function About(props) {
+  const controls = useAnimation();
+
+  const variants = {
+    visible: { x: 0, opacity: 1 },
+    hidden: { x: "1%", opacity: 0 },
+  };
+
+  const handleScroll = () => {
+    const scrollY = window.scrollY;
+    const isVisible = scrollY > 10; // Adjust the scroll threshold as needed
+
+    if (isVisible) {
+      controls.start("visible");
+    } else {
+      controls.start("hidden");
+    }
+  };
+
+  // Add event listener to handle scroll
+  React.useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
   return (
     <div className={style.main}>
       <div className="container-fluid" id={style.container}>
-        <h1 id={style.h1}>ABOUT PROF. JOHN  NTAMBIRWEKI</h1>
+        <h1 id={style.h1}>ABOUT PROF. JOHN NTAMBIRWEKI</h1>
         <div className="row" id={style.col7}>
           <div
             className="col-xl-12 col-lg-6 col-md-6 col-sm-12 col-12"
@@ -23,7 +47,14 @@ function About(props) {
           {/* <img src="public/images/JT-High-Res-1-2048x2048.png" alt="" id={style.img} /> */}
           {/* </div> */}
         </div>
-        <div className="row" id={style.col}>
+        <motion.div
+          className="row"
+          id={style.col}
+          initial="hidden"
+          animate={controls}
+          variants={variants}
+          transition={{ duration: 0.8, ease: 'easeInOut' }}
+        >
           <div
             className="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12"
             id={style.col3}
@@ -41,7 +72,7 @@ function About(props) {
           <div className="col" id={style.col2}>
             {/* <img src="public/images/JT-High-Res-1-2048x2048.png" alt="" id={style.img} /> */}
           </div>
-        </div>
+        </motion.div>
 
         <div className="row" id={style.col}>
           <div
