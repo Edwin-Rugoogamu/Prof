@@ -62,7 +62,7 @@ function Info(props) {
               </h6>
               <button className={style.button2}>
                 {" "}
-                <Link to="/about" className={style.explore}>
+                <Link to="/professor" className={style.explore}>
                   ABOUT PROF.JOHN NTAMBIRWEKI
                 </Link>
               </button>

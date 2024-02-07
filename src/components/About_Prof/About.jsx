@@ -1,31 +1,26 @@
 import React from "react";
 import style from "./About.module.css";
 import { motion, useAnimation } from "framer-motion";
+import { useInView } from "react-intersection-observer";
 
 function About(props) {
   const controls = useAnimation();
+  const [ref, inView] = useInView({
+    triggerOnce: false,
+  });
 
   const variants = {
-    visible: { x: 0, opacity: 1 },
-    hidden: { x: "1%", opacity: 0 },
+    hidden: { opacity: 0, y: 50 },
+    visible: { opacity: 1, y: 0 },
   };
 
-  const handleScroll = () => {
-    const scrollY = window.scrollY;
-    const isVisible = scrollY > 10; // Adjust the scroll threshold as needed
-
-    if (isVisible) {
+  React.useEffect(() => {
+    if (inView) {
       controls.start("visible");
     } else {
       controls.start("hidden");
     }
-  };
-
-  // Add event listener to handle scroll
-  React.useEffect(() => {
-    window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
+  }, [controls, inView]);
   return (
     <div className={style.main}>
       <div className="container-fluid" id={style.container}>
@@ -50,10 +45,11 @@ function About(props) {
         <motion.div
           className="row"
           id={style.col}
-          initial="hidden"
-          animate={controls}
-          variants={variants}
-          transition={{ duration: 0.8, ease: 'easeInOut' }}
+          ref={ref}
+        initial="hidden"
+        animate={controls}
+        variants={variants}
+        transition={{ duration: 0.5 }}
         >
           <div
             className="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12"
