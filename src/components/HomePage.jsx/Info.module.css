@@ -151,7 +151,11 @@
   color: white;
   border: none;
   font-weight: 500;
+  transition: transform  0.8s ease;
   /* font-family:Raleway; */
+}
+.button:hover{
+  transform: translateX(10px);
 }
 .button2 {
   margin-top: 50px;
@@ -164,7 +168,11 @@
   border: none;
   font-weight: 500;
   font-size: 15px;
+  transition: transform  0.8s ease;
   /* font-family:Raleway; */
+}
+.button2:hover{
+  transform: translateX(10px); 
 }
 .weDo {
   padding-top: 80px;
@@ -199,7 +207,7 @@
     margin-top: 20px;
     border-top-right-radius: 225px;
     border-top-left-radius: 225px;
-    margin-bottom: 70px;
+    margin-bottom: 20px;
     width: 60%;
     text-align: center;
   }
@@ -220,7 +228,7 @@
     border-radius: 5px;
     padding-top: 5px;
     padding-bottom: 10px;
-    width: 50%;
+    width: 40%;
    
     color: white;
     border: none;
@@ -230,7 +238,7 @@
   .h3 {
     padding-top: 20px;
     padding-right: 5%;
-    font-size: 20px;
+    font-size: 15px;
   }
   .h6 {
     padding-top: 20px;
@@ -245,7 +253,7 @@
   .h {
     padding-top: 30px;
 
-    font-size: 23px;
+    font-size: 20px;
   }
   .hSecond {
     padding-top: 20px;
@@ -253,12 +261,19 @@
     font-size: 12px;
   }
   .heading {
-    font-size: 15px;
+    font-size: 12px;
     /* padding-top: 20px; */
 
   }
   #container {
    display: none;
+  }
+  .button2{
+    font-size: 10px;
+    margin-top: 0px;
+  }
+  .explore {
+    font-size: 10px;
   }
 }
 
@@ -281,10 +296,10 @@
     width: 60%;
     text-align: center;
   }
-  #wedo {
-    /* text-align: center; */
+  .weDo {
+    padding-top: 40px;
+    text-decoration: underline;
     font-size: 15px;
-    padding-left: 5%;
   }
 
   .button {
@@ -292,7 +307,7 @@
     border-radius: 5px;
     padding-top: 5px;
     padding-bottom: 10px;
-    width: 50%;
+    width: 30%;
     /* background-color: #004aaf; */
     /* color: white; */
     border: none;
@@ -300,14 +315,14 @@
     margin-bottom: 20px;
   }
   .h3 {
-    padding-top: 30px;
+    padding-top: 20px;
     padding-right: 5%;
-    font-size: 25px;
+    font-size: 15px;
   }
   .h6 {
     padding-top: 20px;
     padding-right: 5%;
-    font-size: 15px;
+    font-size: 12px;
   }
   .weDo {
     padding-top: 40px;
@@ -316,15 +331,15 @@
   .h {
     padding-top: 30px;
 
-    font-size: 30px;
+    font-size: 20px;
   }
   .hSecond {
     padding-top: 20px;
 
-    font-size: 17px;
+    font-size: 12px;
   }
   .heading {
-    font-size: 15px;
+    font-size: 12px;
     /* padding-top: 20px; */
 
   }
@@ -334,6 +349,20 @@
   #container {
     display: none;
    }
+   .button2{
+    font-size: 10px;
+    margin-top: 0px;
+  }
+   .button{
+    font-size: 10px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    width: 30%;
+    
+  }
+  .explore {
+    font-size: 10px;
+  }
 }
 /* media */
 @media (768px <= width < 992px) {

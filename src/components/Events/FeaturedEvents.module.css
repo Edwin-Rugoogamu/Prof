@@ -27,6 +27,11 @@
   color: white;
   border: none;
   font-weight: 500;
+  transition: transform  0.8s ease;
+}
+.button:hover{
+  transform: translateX(10px);
+
 }
 .img{
   width: 100%;

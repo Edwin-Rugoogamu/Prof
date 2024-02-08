@@ -49,15 +49,17 @@
     width: 100%;
     margin-top: 0px;
     padding-top: 0px;
+    /* border-top-left-radius: 20px;
+    border-top-right-radius: 20px; */
 }
 #col2{
-    background-image: url("/images/happy.jpg");
+    background-image: url("/images/whenYoung.jpg");
     background-repeat: no-repeat;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
 
     /* background-attachment: fixed; */
-     background-size: 100% 100%;
+     background-size:cover;
      background-position: center;
 }
 #col3{
@@ -67,16 +69,87 @@
     padding-right: 40px;
 }
 #col4{
-    background-image: url("/images/photo-1607237138185-eedd9c632b0b.avif");
+    background-image: url("/images/joiningMakerere.jpg");
     background-repeat: no-repeat;
     border-radius: 20px;
+
+    /* background-attachment: fixed; */
+    background-size: 100% 100%;
+     background-position: center;
+}
+#col5{
+    background-image: url("/images/graduateMakerere.jpg");
+    background-repeat: no-repeat;
+    border-radius: 20px;
+
 
     /* background-attachment: fixed; */
      background-size: cover;
      background-position: center;
 }
-#col5{
-    background-image: url("/images/plane.webp");
+#col6{
+    background-image: url("/images/cuba.jpg");
+    background-repeat: no-repeat;
+    border-radius: 20px;
+
+
+    /* background-attachment: fixed; */
+     background-size: cover;
+     background-position: center;
+}
+
+#col8{
+    background-image: url("/images/unitedNation.jpg");
+    background-repeat: no-repeat;
+    border-radius: 20px;
+
+
+    /* background-attachment: fixed; */
+     background-size: cover;
+     background-position: center;
+}
+#col9{
+    background-image: url("/images/seniorLecturer.jpg");
+    background-repeat: no-repeat;
+    border-radius: 20px;
+
+
+    /* background-attachment: fixed; */
+     background-size: cover;
+     background-position: center;
+}
+#col10{
+    background-image: url("/images/withOyo.jpg");
+    background-repeat: no-repeat;
+    border-radius: 20px;
+
+
+    /* background-attachment: fixed; */
+     background-size: cover;
+     background-position: center;
+}
+#col11{
+    background-image: url("/images/siting.jpg");
+    background-repeat: no-repeat;
+    border-radius: 20px;
+
+
+    /* background-attachment: fixed; */
+     background-size: cover;
+     background-position: center;
+}
+#col12{
+    background-image: url("/images/happy.jpg");
+    background-repeat: no-repeat;
+    border-radius: 20px;
+
+
+    /* background-attachment: fixed; */
+     background-size: cover;
+     background-position: center;
+}
+#col13{
+    background-image: url("/images/doctorate.jpg");
     background-repeat: no-repeat;
     border-radius: 20px;
 
@@ -91,15 +164,48 @@
   text-align: left;
 }
 @media (0px <= width < 450px) {
+  #col {
+   
+  height: 100%;
+}
+  #col13{
+   display: none;
+}
+#data{
+    width: 100%;
+}
   
 }
 @media (450px <= width < 768px) {
- 
+  #col {
+   
+    height: 100%;
+  }
+  #data{
+    
+  }
 }
 @media (768px <= width < 992px) {
-  
+  #img{
+    display: none;
+ }
+ #data{
+  display: none;
+}
 }
 @media (992px <= width < 1280px) {
+  #img{
+    display: none;
+ }
+ #data{
+  display: none;
+}
 }
 @media (min-width: 1280px) {
+  #img{
+   display: none;
+}
+  #data{
+   display: none;
+}
 }

@@ -27,7 +27,7 @@ function About(props) {
         <h1 id={style.h1}>ABOUT PROF. JOHN NTAMBIRWEKI</h1>
         <div className="row" id={style.col7}>
           <div
-            className="col-xl-12 col-lg-6 col-md-6 col-sm-12 col-12"
+            className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12"
             id={style.col3}
           >
             <p>
@@ -42,20 +42,21 @@ function About(props) {
           {/* <img src="public/images/JT-High-Res-1-2048x2048.png" alt="" id={style.img} /> */}
           {/* </div> */}
         </div>
-        <motion.div
+        <img src="/images/whenYoung.jpg" alt="" id={style.img} />
+        <div
           className="row"
           id={style.col}
-          ref={ref}
-        initial="hidden"
-        animate={controls}
-        variants={variants}
-        transition={{ duration: 0.5 }}
+        
         >
+          <div className="col" id={style.data}>
+            {/* <img src="public/images/JT-High-Res-1-2048x2048.png" alt="" id={style.img} /> */}
+          </div>
           <div
             className="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12"
             id={style.col3}
           >
             <p>
+              
               Prof. Ntambirweki was born in 1955 to Erimonsi and Evangeline
               Ntambirweki in Kagongi, Kashaari District. <br></br>He attained
               his Ordinary School Certificate from Makobore High School,
@@ -68,14 +69,14 @@ function About(props) {
           <div className="col" id={style.col2}>
             {/* <img src="public/images/JT-High-Res-1-2048x2048.png" alt="" id={style.img} /> */}
           </div>
-        </motion.div>
-
+        </div>
+        <img src="/images/joiningMakerere.jpg" alt="" id={style.img} />
         <div className="row" id={style.col}>
           <div
             className="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12"
             id={style.col4}
           >
-            {/* <img src="public/images/JT-High-Res-1-2048x2048.png" alt="" id={style.img} /> */}
+
           </div>
           <div className="col" id={style.col3}>
             <p>
@@ -90,8 +91,16 @@ function About(props) {
             </p>
           </div>
         </div>
-
-        <div className="row" id={style.col}>
+        <img src="/images/graduateMakerere.jpg" alt="" id={style.img} />
+        <motion.div
+          className="row"
+          id={style.col}
+          ref={ref}
+          initial="hidden"
+          animate={controls}
+          variants={variants}
+          transition={{ duration: 0.5 }}
+        >
           <div
             className="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12"
             id={style.col3}
@@ -110,12 +119,12 @@ function About(props) {
           <div className="col" id={style.col5}>
             {/* <img src="public/images/JT-High-Res-1-2048x2048.png" alt="" id={style.img} /> */}
           </div>
-        </div>
-
+        </motion.div>
+        <img src="/images/cuba.jpg" alt="" id={style.img} />
         <div className="row" id={style.col}>
           <div
             className="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12"
-            id={style.col4}
+            id={style.col6}
           >
             {/* <img src="public/images/JT-High-Res-1-2048x2048.png" alt="" id={style.img} /> */}
           </div>
@@ -132,6 +141,7 @@ function About(props) {
             </p>
           </div>
         </div>
+        <img src="/images/doctorate.jpg" alt="" id={style.img} />
         <div className="row" id={style.col}>
           <div
             className="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12"
@@ -145,14 +155,15 @@ function About(props) {
               doctorate in 1987.
             </p>
           </div>
-          <div className="col" id={style.col5}>
+          <div className="col" id={style.col13}>
             {/* <img src="public/images/JT-High-Res-1-2048x2048.png" alt="" id={style.img} /> */}
           </div>
         </div>
+        <img src="/images/unitedNation.jpg" alt="" id={style.img} />
         <div className="row" id={style.col}>
           <div
             className="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12"
-            id={style.col4}
+            id={style.col8}
           >
             {/* <img src="public/images/JT-High-Res-1-2048x2048.png" alt="" id={style.img} /> */}
           </div>
@@ -167,6 +178,7 @@ function About(props) {
             </p>
           </div>
         </div>
+        <img src="/images/seniorLecturer.jpg" alt="" id={style.img} />
         <div className="row" id={style.col}>
           <div className="col" id={style.col3}>
             <p>
@@ -181,15 +193,16 @@ function About(props) {
           </div>
           <div
             className="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12"
-            id={style.col5}
+            id={style.col9}
           >
             {/* <img src="public/images/JT-High-Res-1-2048x2048.png" alt="" id={style.img} /> */}
           </div>
         </div>
+        <img src="/images/withOyo.jpg" alt="" id={style.img} />
         <div className="row" id={style.col}>
           <div
             className="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12"
-            id={style.col4}
+            id={style.col10}
           >
             {/* <img src="public/images/JT-High-Res-1-2048x2048.png" alt="" id={style.img} /> */}
           </div>
@@ -206,6 +219,7 @@ function About(props) {
             </p>
           </div>
         </div>
+        <img src="/images/siting.jpg" alt="" id={style.img} />
         <div className="row" id={style.col}>
           <div className="col" id={style.col3}>
             <p>
@@ -224,15 +238,16 @@ function About(props) {
           </div>
           <div
             className="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12"
-            id={style.col5}
+            id={style.col11}
           >
             {/* <img src="public/images/JT-High-Res-1-2048x2048.png" alt="" id={style.img} /> */}
           </div>
         </div>
+        <img src="/images/happy.jpg" alt="" id={style.img} />
         <div className="row" id={style.col}>
           <div
             className="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12"
-            id={style.col4}
+            id={style.col12}
           >
             {/* <img src="public/images/JT-High-Res-1-2048x2048.png" alt="" id={style.img} /> */}
           </div>

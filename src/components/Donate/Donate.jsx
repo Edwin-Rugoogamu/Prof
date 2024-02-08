@@ -31,9 +31,9 @@ function Donate(props) {
                     <p>Lorem, ipsum dolor.</p> */}
 
                     <h4> <FaPhoneAlt /> Phone Numbers</h4>
-                    <Link to="tel:+256752444228"  className={style.Link}> +256752444228</Link>,  <br></br> 
-             <Link to="tel:+256772647796"  className={style.Link}> +256772647796</Link>,  <br></br>  
-             <Link to="tel:+256782223223"  className={style.Link}> +256782223223</Link>,  <br></br>
+                    <Link to="tel:+256752444228"  className={style.Link}> +256752444228</Link>  <br></br> 
+             <Link to="tel:+256772647796"  className={style.Link}> +256772647796</Link>  <br></br>  
+             <Link to="tel:+256782223223"  className={style.Link}> +256782223223</Link>  <br></br>
              <Link to="tel:+256782300455"  className={style.Link}> +256782300455</Link>  
                    
 

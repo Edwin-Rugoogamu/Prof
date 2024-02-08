@@ -44,10 +44,10 @@ function Footer(props) {
              <Link to="tel:+256782300455"  className={style.Link}> +256782300455</Link>   */}
 
             </p>
-            <p className={style.p}>
+            <p className={style.number}>
             
               <MdEmail className={style.icon} />
-              <Link to="mailto:rugoogamuedwin5@gmail.com"></Link>
+              <Link to="mailto:info@ntamirwekifoundation.org" className={style.Link}> &nbsp; info@ntamirwekifoundation.org</Link>
             </p>
            
             <p className={style.number}>
@@ -58,9 +58,7 @@ function Footer(props) {
           
           </div>
           <div className="col-xl-3 col-lg-3 col-md-4 col-sm-12 col-12">
-            <h4 className={style.h4}>Get In Touch </h4>
-            
-          
+            <h4 className={style.h4}>Get In Touch </h4> 
             <label className={style.label}>
            <Link to="https://www.linkedin.com/company/ntambirwekiorg/" className={style.label}>  <FaLinkedin className={style.icon2} /></Link>  
             </label>

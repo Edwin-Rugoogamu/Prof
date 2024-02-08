@@ -15,7 +15,7 @@
   
   #Link:hover {
     color: #004AAF;
-    transition: 0.5ms;
+    
   }
   #Link {
     text-decoration: none;
@@ -28,7 +28,12 @@
   }
   #Link2 {
    font-size: 15px;
-    
+   transition: transform  0.8s ease;
+  }
+  #Link2:hover {
+   font-size: 15px;
+   transform: translateX(10px);
+   color: #d2e2f8;
   }
   #link3{
     color: black;
@@ -108,8 +113,11 @@
   
 
   .logo{
-    width: 70px;
-  
+    max-width:  100%; /* Ensure the image fits within the navbar */
+    max-height:  72px; /* Limit the height to prevent excessive size */
+    object-fit: contain; /* Ensure the image scales nicely */
+    filter: contrast(110%)
+    
     
   }
 
@@ -177,8 +185,8 @@
       width: 70%;
     }
     #Link2 {
-      padding-top: 40px;
-      padding-bottom: 40px;
+      padding-top: 20px;
+      padding-bottom: 20px;
       /* width: 100%; */
     }
     #Link2:hover {
@@ -246,8 +254,8 @@
       width: 70%;
     }
     #Link2 {
-      padding-top: 40px;
-      padding-bottom: 40px;
+      padding-top: 20px;
+      padding-bottom: 20px;
       /* width: 100%; */
     }
     #Link2:hover {

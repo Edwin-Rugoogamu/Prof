@@ -64,6 +64,10 @@
     font-weight: 500;
     /* font-family:Raleway; */
     font-family: 'Oswald', sans-serif;
+    transition: transform  0.8s ease;
+  }
+  .button:hover{
+    transform: translateX(10px); 
   }
   .p4{
     font-size: 15px;

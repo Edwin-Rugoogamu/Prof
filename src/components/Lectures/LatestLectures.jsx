@@ -20,11 +20,10 @@ function LatestLectures(props) {
           >
             <h5 className={style.h}> Annual Memorial Lecture in conjunction with Uganda Pentecostal University</h5>
             
-             <h5 className={style.h}>Speakers</h5>
+             <h5 className={style.h}>Speaker</h5>
              <p className={style.p4}>
-         <li>lorem2</li>
-         <li>lorem2</li>
-         <li>lorem2</li>
+         <li>PROF. PALAMAGAMBA JOHN AIDAN MWALUKO KABUDI</li>
+         
              </p>  
              <button className={style.button}>Watch</button>           
              
