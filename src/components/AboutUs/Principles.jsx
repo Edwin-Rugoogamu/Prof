@@ -34,10 +34,10 @@ function Principles(props) {
       >
         <div className="row">
           <div className="col">
-            <img src="/images/candle.jpg" alt="" id={style.img} />
+            <img src="/images/IMG-20240204-WA0033.jpg" alt="" id={style.img} />
           </div>
           <div
-            className="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12"
+            className="col-xl-7 col-lg-7 col-md-7 col-sm-12 col-12"
             id={style.col}
           >
             <h5 className={style.h}>Core Principles</h5>

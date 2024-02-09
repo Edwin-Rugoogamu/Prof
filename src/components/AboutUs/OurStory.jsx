@@ -50,7 +50,7 @@ function OurStory(props) {
           </div>
           <div className="col">
             <img
-              src="/images/photo-1607237138185-eedd9c632b0b.avif"
+              src="/images/IMG-20240204-WA0024.jpg"
               alt=""
               id={style.img}
             />

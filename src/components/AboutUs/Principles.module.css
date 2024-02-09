@@ -34,8 +34,8 @@
     font-weight: 500;
 }
 #img{
-    width: 100%;
-    height: 100%;
+    width: 90%;
+    height: 90%;
     padding-top: 50px;
 }
 
@@ -60,6 +60,11 @@
      .p2{
          font-size: 15px;
      }
+     #img{
+        width: 100%;
+        height: 100%;
+        padding-top: 50px;
+    }
 }
 @media (450px <= width < 768px) {
     
@@ -82,6 +87,11 @@
      .p2{
          font-size: 17px;
      }
+     #img{
+        width: 100%;
+        height: 100%;
+        padding-top: 50px;
+    }
 }
 @media (768px <= width < 992px) {
     #container {

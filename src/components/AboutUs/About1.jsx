@@ -42,7 +42,7 @@ function About1(props) {
             className="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12"
             id={style.col}
           >
-            <h5 className={style.h}>To...</h5>
+            
             <p className={style.p1}>
               To facilitate continuing education for sections of the community
               in Uganda and worldwide.

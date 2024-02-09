@@ -80,7 +80,7 @@ function Info(props) {
           <div className="row" id={style.row}>
             <div className="col" id={style.img2}>
               <div id={style.img}>
-                <img src="/images/graduate2.jpg" alt="" className={style.img} />
+                <img src="/images/IMG_5973.PNG" alt="" className={style.img} />
               </div>
             </div>
             <div className="col-xl-7 col-lg-7 col-md-7" id={style.wedo}>

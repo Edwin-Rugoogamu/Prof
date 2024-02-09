@@ -59,7 +59,7 @@ function FeaturedEvents(props) {
             className="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12"
             id={style.col}
           >
-            <img src="/images/lecture.png" alt="" className={style.img} />
+            <img src="/images/Prof JT Memorial Backdrop 5.png" alt="" className={style.img} />
           </div>
           <div className="col">
             <h5 className={style.h}>
@@ -68,12 +68,7 @@ function FeaturedEvents(props) {
               University.
             </h5>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci,
-              dignissimos officia repudiandae maxime nam dicta ullam tempora
-              eveniet ea, corrupti facilis est, possimus eum repellat molestias
-              aliquid. Voluptates, magnam libero asperiores neque est labore
-              quaerat minus voluptas? Impedit repellendus ea sapiente, soluta
-              voluptate fugiat fugit ipsa rem animi aut nobis obcaecati itaque
+     
              
             </p>
             <button className={style.button} onClick={handleClick}>
@@ -101,12 +96,7 @@ function FeaturedEvents(props) {
               community
             </h5>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci,
-              dignissimos officia repudiandae maxime nam dicta ullam tempora
-              eveniet ea, corrupti facilis est, possimus eum repellat molestias
-              aliquid. Voluptates, magnam libero asperiores neque est labore
-              quaerat minus voluptas? Impedit repellendus ea sapiente, soluta
-              voluptate fugiat fugit ipsa rem animi aut nobis obcaecati itaque
+            
              
             </p>
             <button className={style.button} onClick={handleClick}>
@@ -134,12 +124,7 @@ function FeaturedEvents(props) {
               other higher institutions of learning.
             </h5>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci,
-              dignissimos officia repudiandae maxime nam dicta ullam tempora
-              eveniet ea, corrupti facilis est, possimus eum repellat molestias
-              aliquid. Voluptates, magnam libero asperiores neque est labore
-              quaerat minus voluptas? Impedit repellendus ea sapiente, soluta
-              voluptate fugiat fugit ipsa rem animi aut nobis obcaecati itaque
+   
              
             </p>
             <button className={style.button} onClick={handleClick}>
@@ -165,12 +150,7 @@ function FeaturedEvents(props) {
               Tree Planting Exercise 
             </h5>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci,
-              dignissimos officia repudiandae maxime nam dicta ullam tempora
-              eveniet ea, corrupti facilis est, possimus eum repellat molestias
-              aliquid. Voluptates, magnam libero asperiores neque est labore
-              quaerat minus voluptas? Impedit repellendus ea sapiente, soluta
-              voluptate fugiat fugit ipsa rem animi aut nobis obcaecati itaque
+
              
             </p>
             <button className={style.button} onClick={handleClick}>
