@@ -4,11 +4,18 @@
 
 #offcanvas{
     background-color:#004AAF ;
-    color: white;
+    color: #004AAF;
 }
 #offcanvas .btn-close{
  background-color: white;
     color: white;
+}
+.navbar-toggler {
+  background-color: transparent !important;
+  color: white; /* Remove background color */
+}
+.navbar-light .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0  0  32  32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='%23ffffff' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4  8h24M4  16h24M4  24h24'/%3E%3C/svg%3E");
 }
 
 .active {

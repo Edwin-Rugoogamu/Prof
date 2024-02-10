@@ -64,12 +64,12 @@
     color: white;
   }
   #offcanvas .btn-close {
-    background-color: white;
-    color: white;
+    background-color:#004AAF;
+    color:#004AAF;
   }
   .btn_close .btn-close {
-    color: white;
-    background-color: white;
+    color:#004AAF;
+    background-color:#004AAF;
   }
   .e {
     color: rgb(29, 211, 211);
@@ -169,15 +169,16 @@
   
   @media (0px <= width < 450px) {
     #Navbar {
-     
-      color: white;
-      position: fixed;
+  
+      /* color: white; */
+      position:sticky;
       width: 100%;
-      z-index: 1000;
+      
       padding-left: 0%;
       padding-right: 0%;
       top: 0;
       left: 0;
+      margin-bottom: 0%;
     }
   
     #offcanvas {
@@ -237,16 +238,18 @@
     }
   }
   @media (450px <= width < 768px) {
+   
     #Navbar {
   
       /* color: white; */
-      position: fixed;
+      position:static;
       width: 100%;
       z-index: 1000;
       padding-left: 0%;
       padding-right: 0%;
       top: 0;
       left: 0;
+      margin-bottom: 0px;
     }
   
     #offcanvas {
@@ -304,6 +307,7 @@
      padding-bottom: 15%;
       font-weight: 200;
     }
+    
   }
   @media (768px <= width < 992px) {
     #search {

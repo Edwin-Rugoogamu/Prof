@@ -23,13 +23,9 @@ function Reason(props) {
   }, [controls, inView]);
   return (
     <>
-      <motion.div
+      <div
         className={style.main}
-        ref={ref}
-        initial="hidden"
-        animate={controls}
-        variants={variants}
-        transition={{ duration: 0.5 }}
+       
       >
         <div className="container-fluid" id={style.container}>
           <div className="row">
@@ -48,7 +44,7 @@ function Reason(props) {
             </div>
           </div>
         </div>
-      </motion.div>
+      </div>
     </>
   );
 }

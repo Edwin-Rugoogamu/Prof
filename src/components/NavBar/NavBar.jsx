@@ -54,7 +54,7 @@ function NavBar(props) {
         <Navbar
           key={expand}
           expand={expand}
-          className=" mb-3"
+          // className=" mb-3"
           id={style.Navbar}
         >
           <Container fluid>
