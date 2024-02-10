@@ -44,8 +44,8 @@ function About1(props) {
           >
             
             <p className={style.p1}>
-              To facilitate continuing education for sections of the community
-              in Uganda and worldwide.
+            To facilitate continuing education for sections of the community
+            in Uganda and worldwide.
             </p>
             <p className={style.p}>
               <Link to="/objectives">

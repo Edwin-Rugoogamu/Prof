@@ -28,6 +28,7 @@
   border: none;
   font-weight: 500;
   transition: transform  0.8s ease;
+  font-family: 'Oswald', sans-serif;
 }
 .button:hover{
   transform: translateX(10px);
@@ -48,6 +49,7 @@
 .h{
   color: #004aaf;
   font-family: 'Oswald', sans-serif;
+
 }
 
 @media (0px <= width < 450px) {
@@ -56,20 +58,28 @@
       }
       .h{
         padding-top: 30px;
+        font-family: "Raleway", sans-serif;
       }
       .h4 {
-        padding-top: 5px;
-        
-       
+        padding-top: 0px;
+        font-size: 20px;
+        padding-bottom: 10px;
       }
 }
 @media (450px <= width < 768px) {
     .button {
         margin-top: 10px;
+        font-family: 'Oswald', sans-serif;
       }
 
       .h{
         padding-top: 30px;
+        font-family: "Raleway", sans-serif;
+      }
+      .h4 {
+        padding-top: 0px;
+        font-size: 20px;
+        padding-bottom: 0px;
       }
 }
 @media (768px <= width < 992px) {

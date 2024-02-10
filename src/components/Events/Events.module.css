@@ -23,6 +23,9 @@
         padding-top: 10px;
         
     }
+    .h1{
+       font-size: 25px;
+    }
 }
 @media (450px <= width < 768px) {
     .main {
@@ -30,6 +33,9 @@
         padding-top: 10px;
         
     }
+    .h1{
+        font-size: 25px;
+     }
  
 }
 @media (768px <= width < 992px) {
