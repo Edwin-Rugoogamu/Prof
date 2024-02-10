@@ -18,9 +18,18 @@
 
 
 @media (0px <= width < 450px) {
- 
+    .main {
+    
+        padding-top: 10px;
+        
+    }
 }
 @media (450px <= width < 768px) {
+    .main {
+    
+        padding-top: 10px;
+        
+    }
  
 }
 @media (768px <= width < 992px) {

@@ -49,9 +49,19 @@
             font-size: 35px;
           
         }
+        .main{
+            padding-top: 0px;
+           
+        
+        }
   
     }
     @media (450px <= width < 768px) {
+        .main{
+            padding-top: 0px;
+           
+        
+        }
         #col{
             padding-top: 300px;
             width: 600px;

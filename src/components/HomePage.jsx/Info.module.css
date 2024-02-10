@@ -295,6 +295,16 @@
   .explore {
     font-size: 10px;
   }
+  #col {
+   
+    padding-top: 40px;
+    padding-left: 5%;
+    font-size: 50px;
+    font-weight: 100;
+  
+    padding-bottom: 90px;
+    color: black;
+  }
 }
 
 /* media */
