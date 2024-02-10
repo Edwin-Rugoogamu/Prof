@@ -194,7 +194,7 @@
 
 @media (0px <= width < 450px) {
   #container1 {
-    background-image: url(images/JT-High-Res-1-2048x2048-removebg-preview.png);
+    background-image: url(/images/JT-High-Res-1-2048x2048-removebg-preview.png);
     background-color: white;
     background-repeat: no-repeat;
   
@@ -315,7 +315,7 @@
     border-left: none;
   }
   #container1 {
-    background-image: url(images/JT-High-Res-1-2048x2048-removebg-preview.png);
+    background-image: url(/images/JT-High-Res-1-2048x2048-removebg-preview.png);
     background-color: white;
     background-repeat: no-repeat;
   
