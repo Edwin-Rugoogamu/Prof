@@ -42,10 +42,12 @@ function Principles(props) {
           >
             <h5 className={style.h}>Core Principles</h5>
             <p className={style.p1}>
-              <li> Empower </li>
-              <li> Elevate </li>
-              <li> Engage </li>
-              <li>Educate </li>
+              <li> It is our mission to educate, empower and elevate the next generation of Africans in line with the sustainable development goals. 
+ </li>
+              <li> Through engaging directly with affected communities and stakeholders, we aim to increase access to higher and tertiary education. 
+ </li>
+              <li> It is also our goal to research and engage with communities and stakeholders on some of the biggest threats to biodiversity in our communities — such as environmental degradation, water scarcity and  food insecurity. </li>
+          
             </p>
           </div>
         </div>

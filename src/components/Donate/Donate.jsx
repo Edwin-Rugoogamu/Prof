@@ -23,14 +23,11 @@ function Donate(props) {
           </div>
           <div className="col">
             <h1 id={style.h1}>Donate to JT Foundation </h1>
-            <div className="container">
-              <div className="row"id={style.row}>
-               
-                <div className="col" id={style.col}>
+            
                     {/* <h4><MdAccountBalance /> Bank Account</h4>
                     <p>Lorem, ipsum dolor.</p> */}
 
-                    <h4> <FaPhoneAlt /> Phone Numbers</h4>
+                    <h4 className={style.h4}> <FaPhoneAlt /> Phone Numbers</h4>
                     <Link to="tel:+256752444228"  className={style.Link}> +256752444228</Link>  <br></br> 
              <Link to="tel:+256772647796"  className={style.Link}> +256772647796</Link>  <br></br>  
              <Link to="tel:+256782223223"  className={style.Link}> +256782223223</Link>  <br></br>
@@ -41,9 +38,7 @@ function Donate(props) {
                     <p>Lorem, ipsum dolor.</p> */}
                 </div>
               </div>
-            </div>
-          </div>
-        </div>
+       
       </div>
       <div><Footer/></div>
     </div>
